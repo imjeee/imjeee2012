@@ -21,11 +21,14 @@ li.contact-info {
 }
 
 #contact-form input, textarea {
-  color: white;
+
+  font-family: Helvetica, Sans-serif;
   font-size: 13px;
   font-weight: bold;
-  width: 90%;
-  padding: 5px;
+  color: #A1A1A1;
+
+  width: 89%;
+  padding: 7px;
   margin: 0 0 5px 0;
   border-width: 0;
   background-color: black;
@@ -33,7 +36,7 @@ li.contact-info {
 
 #contact-form button {
   font-family: Helvetica, Sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   margin: -5px 0 0 0;
   padding: 5px;
@@ -41,6 +44,7 @@ li.contact-info {
   border-width: 0;
   width: 45.5%;
   cursor: pointer;
+  letter-spacing: .05em;
 
   /*Transition*/
   -webkit-transition: All 0.5s ease;

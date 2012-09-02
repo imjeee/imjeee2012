@@ -11,7 +11,7 @@
      	<textarea name="message" id="message" placeholder="Please type your message..." required="required" cols="80" rows="10" maxlength="10000"></textarea>
   		<div id="formButtons">
   			<button id="sendMessage" type="submit">Send Email</button>
-  			<button id="cancel" type="cancel">Cancel</button>
+  			<button id="cancel">Cancel</button>
 			</div>
 		</form>
 	</ul>
