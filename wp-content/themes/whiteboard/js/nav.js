@@ -1,106 +1,115 @@
 $(document).ready(function(){
+  ajaxLoadPageInit();
+  contactFormInit();
+});
 
-	/* ajax loading pages */
+// ajax loading pages 
+function ajaxLoadPageInit(){
+  var $mainContent = $("#content"),
+  siteUrl = "http://" + top.location.host.toString(),
+  url = ''; 
 
-	var $mainContent = $("#content"),
-	siteUrl = "http://" + top.location.host.toString(),
-	url = ''; 
+  $(document).delegate("a[href^='"+siteUrl+"']:not([href*=/wp-admin/]):not([href*=/wp-login.php]):not([href$=/feed/])", "click", function() {
+    location.hash = this.pathname;
+    return false;
+  });
 
-	$(document).delegate("a[href^='"+siteUrl+"']:not([href*=/wp-admin/]):not([href*=/wp-login.php]):not([href$=/feed/])", "click", function() {
-		location.hash = this.pathname;
-		return false;
-	});
+  $("#searchform").submit(function(e) {
+    location.hash = '?s=' + $("#s").val();
+    e.preventDefault();
+  });
 
-	$("#searchform").submit(function(e) {
-		location.hash = '?s=' + $("#s").val();
-		e.preventDefault();
-	});
+  $(window).bind('hashchange', function(){
+    url = window.location.hash.substring(1); 
+    if (!url) { return; } 
+    url = url + " #content"; 
+    $mainContent.animate({opacity: "0.1"}).html('&lt;p&gt;Please wait...&lt;/&gt;').load(url, function() {
+      $mainContent.animate({opacity: "1"});
+    });
+  });
 
-	$(window).bind('hashchange', function(){
-		url = window.location.hash.substring(1); 
-		if (!url) { return; } 
-		url = url + " #content"; 
-		$mainContent.animate({opacity: "0.1"}).html('&lt;p&gt;Please wait...&lt;/&gt;').load(url, function() {
-			$mainContent.animate({opacity: "1"});
-		});
-	});
+  $(window).trigger('hashchange');
+}
 
-	$(window).trigger('hashchange');
+// contact form
+function contactFormInit() {
 
-          // hide contact form
-          $('#contact-form').hide();
+  // hide contact form
+  $('#contact-form').hide();
 
-          //  Initialize auto-hint fields
-          $('INPUT.auto-hint, TEXTAREA.auto-hint').focus(function(){
-            if($(this).val() == $(this).attr('title')){ 
-              $(this).val('');
-              $(this).removeClass('auto-hint');
-            }
-          });
-          
-          $('INPUT.auto-hint, TEXTAREA.auto-hint').blur(function(){
-            if($(this).val() == '' && $(this).attr('title') != ''){ 
-              $(this).val($(this).attr('title'));
-              $(this).addClass('auto-hint'); 
-            }
-          });
-            
-          $('INPUT.auto-hint, TEXTAREA.auto-hint').each(function(){
-            if($(this).attr('title') == ''){ return; }
-              if($(this).val() == ''){ $(this).val($(this).attr('title')); }
-              else { $(this).removeClass('auto-hint'); } 
-          });
+  // show contact form
+  $('#openContact').click(function() {
+    $('#contact-form').fadeIn( 'slow', function() {
+      $('#senderName').focus();
+    });
+    return false;
+  });
 
-          // when user click submit button
-          // hide contact form
-          $('#contact-form :button').click(function() {
+  // When the "Cancel" button is clicked, close the form
+  $('#cancel').click( function() { 
+    $('#contact-form').fadeOut();
+  });
+}
 
-            // check if name field is default value
-            var name = $('#fullname').val();
-            if (name == 'name') {
-              $('#fullname').stop().css("background-color", "red").animate({ backgroundColor: "black"}, 1000);
-              return false;
-            }
+// Submit the form via Ajax
 
-            // check if email field is default value
-            var email = $('#email').val();
-            if (email == 'email') {
-              $('#email').stop().css("background-color", "red").animate({ backgroundColor: "black"}, 1000);
-              return false;
-            }
+function submitForm() {
+  var contactForm = $(this);
 
-            // check if message field is default value
-            var message = $('#message').val();
-            if (message == 'Enter Your Message Here...') {
-              $('#message').stop().css("background-color", "red").animate({ backgroundColor: "black"}, 1000);
-              return false;
-            }
+  // Are all the fields filled in?
 
-            var dataString = 'name='+ name + '&email=' + email + '&phone=' + phone;
-            alert (dataString);
-            /*
-            $.ajax({
-              type: "POST",
-              url: "bin/process.php",
-              data: dataString,
-              success: function() {
-                $('#contact-form').hide("slide", { direction: "up" }, 300);
-                $('#openContact').show("slide", { direction: "up" }, 300);
-              }
-            });
-            return false;*/
+  if ( !$('#senderName').val() || !$('#senderEmail').val() || !$('#message').val() ) {
 
-            $('#contact-form').hide("slide", { direction: "up" }, 300);
-            $('#openContact').show("slide", { direction: "up" }, 300);
-            $('#openContact').append("Thanks! I'll get in touch soon!");
-            return false;
-          });
+    // No; display a warning message and return to the form
+    
+    $('#incompleteMessage').fadeIn().delay(messageDelay).fadeOut();
+    contactForm.fadeOut().delay(messageDelay).fadeIn();
 
-          // show contact form
-          $('#openContact').click(function() {
-            $('#contact-form').show("slide", { direction: "up" }, 300);
-            $('#openContact').hide();
-          });
+  } else {
+
+    // Yes; submit the form to the PHP script via Ajax
+
+    $('#sendingMessage').fadeIn();
+    contactForm.fadeOut();
+
+    $.ajax( {
+      url: contactForm.attr( 'action' ) + "?ajax=true",
+      type: contactForm.attr( 'method' ),
+      data: contactForm.serialize(),
+      success: submitFinished
+    } );
+  }
+
+  // Prevent the default form submission occurring
+  return false;
+}
 
 
-        });
+// Handle the Ajax response
+
+function submitFinished( response ) {
+  response = $.trim( response );
+  $('#sendingMessage').fadeOut();
+
+  if ( response == "success" ) {
+
+    // Form submitted successfully:
+    // 1. Display the success message
+    // 2. Clear the form fields
+    // 3. Fade the content back in
+
+    $('#successMessage').fadeIn().delay(messageDelay).fadeOut();
+    $('#senderName').val( "" );
+    $('#senderEmail').val( "" );
+    $('#message').val( "" );
+
+    $('#content').delay(messageDelay+500).fadeTo( 'slow', 1 );
+
+  } else {
+
+    // Form submission failed: Display the failure message,
+    // then redisplay the form
+    $('#failureMessage').fadeIn().delay(messageDelay).fadeOut();
+    $('#contactForm').delay(messageDelay+500).fadeIn();
+  }
+}

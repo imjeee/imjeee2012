@@ -4,6 +4,7 @@ body {
   background-color:#1A1A1A;
   color:#979797;
   font-family: Helvetica, Sans-serif;
+  background-image:url('imjeee2012/images/water.jpg');
 }
 
 .left {
@@ -17,4 +18,22 @@ body {
   width:81%;
   position: absolute;
   left: 19%;
+}
+
+a, a:link {
+  color:#979797;
+  text-decoration:none;
+  -webkit-transition: color .3s linear;
+  -moz-transition: color .3s linear;
+  -o-transition: color .3s linear;
+  -ms-transition: color .3s linear;
+  transition: color .3s linear;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active, a:visited {
+  color: #607890;
 }

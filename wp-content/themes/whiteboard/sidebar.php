@@ -4,15 +4,16 @@
 		<li class="contact-info">DESIGN + DEVELOPMENT</li>
 		<br /><br /><br />
 		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ));  ?>
-	<li><a href="#" id="openContact">CONTACT</a></li>
-			<div id="contact-form">
-				<form action="" class="sample-form">
-					<input type="text" name="fullname" id="fullname" title="name" class="auto-hint">
-					<input type="text" name="email" id="email" title="email" class="auto-hint">
-					<textarea rows="6" id="message" name="message" class="auto-hint" title="Enter Your Message Here..."></textarea><br />
-					<button type="submit">Submit</button>
-				</form>
-			</div>	
+		<li><a href="#" id="openContact">CONTACT</a></li>
+		<form id="contact-form" action="processForm.php" method="post">
+     	<input type="text" name="senderName" id="senderName" placeholder="Please type your name" required="required" maxlength="40" />
+     	<input type="email" name="senderEmail" id="senderEmail" placeholder="Please type your email address" required="required" maxlength="50" />
+     	<textarea name="message" id="message" placeholder="Please type your message..." required="required" cols="80" rows="10" maxlength="10000"></textarea>
+  		<div id="formButtons">
+  			<button id="sendMessage" type="submit">Send Email</button>
+  			<button id="cancel" type="cancel">Cancel</button>
+			</div>
+		</form>
 	</ul>
 </nav>
 <div id="keyboard-nav">
