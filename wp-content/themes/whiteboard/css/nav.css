@@ -1,0 +1,96 @@
+/* navigation */
+
+li.contact-info {
+  font-size: 13.4px;
+  font-weight: bold;
+  list-style-type: none;
+  line-height: 17px;
+}
+
+/* contact form */
+
+#contact-form .auto-hint {
+  font-family: Helvetica, Sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #A1A1A1;
+}
+
+#contact-form {
+  margin: 5px 0 20px 0;
+}
+
+#contact-form input, textarea {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  width: 90%;
+  padding: 5px;
+  margin: 0 0 5px 0;
+  border-width: 0;
+  background-color: black;
+}
+
+#contact-form button {
+  font-family: Helvetica, Sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -5px 0 0 0;
+  padding: 5px;
+  background-color: gray;
+  border-width: 0;
+  width: 94%;
+  cursor: pointer;
+
+  /*Transition*/
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+  -ms-transition: All 0.5s ease;
+  transition: All 0.5s ease;
+}
+
+#contact-form button:hover {
+  background-color: white;
+}
+
+#contact-form button:active {
+  color: white;
+  background-color: #607890;
+}
+
+nav ul{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+nav li {
+  font-size: 14px;
+  font-weight: bold;
+  list-style-type: none;
+  line-height: 23.5px;
+}
+
+/* keyboard arrows */
+
+#keyboard-nav {
+  position:fixed;
+  bottom:3%;
+}
+
+.arrow-btn a:hover {
+  background-image:url(../arrow-light);
+}
+
+.arrow-btn {
+  height:38px;
+  width:38px;
+  Background-image:url(../images/arrow.png);
+  float:left;
+  margin-right:5px;
+}
+
+.arrow-top {
+  float:none;
+  margin:0 0 5px 43px;
+}
