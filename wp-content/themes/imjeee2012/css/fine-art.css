@@ -20,12 +20,34 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 #theend { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/6.jpg) 50% 0 no-repeat fixed; }
 
 /* Introduction */
-#first .smashinglogo { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/screenshot.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article { 
+	position: absolute; 
+	top: 20%;
+	left: 5%;
+}
+
+
+#first article h1 {
+	font-family: 'Lilita One', cursive;
+	font-size: 70px;
+	color: white;
+	text-shadow: .1em .1em #333;
+	width: 75%;
+	margin: 0 0 20px 0;
+}
 #first article p,
-#first article a { color: #ccc; }
-#first article a { text-decoration: underline; }
-#first article a:hover { color: #fff; }
+#first article a {
+	
+	background: rgba(0, 0, 0, 0.2);
+	/*
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	*/
+	padding: 10px;
+
+	color: #EEE;
+	font-size: 16px;
+}
 
 /* Background Only */
 #second { padding: 50px 0;}
