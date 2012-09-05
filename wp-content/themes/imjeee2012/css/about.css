@@ -8,7 +8,7 @@
   border-left: 10px solid #222222;
 }
 
-p {
+#about p {
   max-width: 700px;
   margin: 0;
 
@@ -26,12 +26,12 @@ h1 {
 
 h3 {
   margin: 0;
-  padding: 0;
+  padding: 0 0 2px 0;
 
   font-size: 18px;
 }
 
-h4 {
+#about h4 {
   margin: 0 0 10px 0;
   padding: 0;
 
