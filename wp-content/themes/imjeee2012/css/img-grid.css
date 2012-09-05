@@ -1,8 +1,10 @@
 /* body, main */
 
 .img-in-grid {
-  width: 30%;
+  width: 350px;
   height: 300px;
+
+  padding: 20px;
   float: left;
 }
 

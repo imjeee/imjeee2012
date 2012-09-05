@@ -5,8 +5,6 @@ Template Name: fine-art
 ?>
 
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/fine-art.css" />
-</head>
 
 <body <?php body_class(); ?>>
 	<div class="left">

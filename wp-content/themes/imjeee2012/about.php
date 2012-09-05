@@ -5,10 +5,8 @@
 ?>
 
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/about.css" />
-   </head>
 
-   <body <?php body_class(); ?>>
+<body <?php body_class(); ?>>
 <div class="left">
    <?php get_sidebar(); ?>
    </div><!-- left -->

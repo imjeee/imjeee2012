@@ -8,23 +8,16 @@
   border-left: 10px solid #222222;
 }
 
-#about p {
-  max-width: 700px;
-  margin: 0;
-
-  font-family: 'PT Sans Caption', Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.5em;
-}
-
-h1 {
+#about h1 {
   margin: 50px 0 10px 0;
   padding: 0;
 
   color: #BBBBBB;
+  font-size: 30px;
+  text-shadow: 0.1em 0.1em black;
 }
 
-h3 {
+#about h3 {
   margin: 0;
   padding: 0 0 2px 0;
 
@@ -39,6 +32,15 @@ h3 {
   font-family: Helvetica, Sans-Serif;
   font-weight: normal;
   color: #607890;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0;
+
+  font-family: 'PT Sans Caption', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
 #about ul {
