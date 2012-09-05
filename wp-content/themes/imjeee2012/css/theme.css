@@ -18,6 +18,9 @@ body {
   width:81%;
   position: absolute;
   left: 19%;
+
+  padding: 0;
+  margin: 0;
 }
 
 a, a:link {

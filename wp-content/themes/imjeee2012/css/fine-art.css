@@ -15,57 +15,65 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 #first { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/1.jpg) 50% 0 no-repeat fixed; }
 #second { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/2.jpg) 50% 0 no-repeat fixed; }
-#third { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/3.jpg) 50% 0 no-repeat fixed; }
-#fourth { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/4.jpg) 50% 0 no-repeat fixed; }
-#theend { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/6.jpg) 50% 0 no-repeat fixed; }
-
-/* Introduction */
-#first article { 
-	position: absolute; 
-	top: 20%;
-	left: 5%;
+#third { 
+	background-image: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
+#fourth { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/4.jpg) 50% 0 no-repeat fixed; }
+#fifth { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/6.jpg) 50% 0 no-repeat fixed; }
 
-
-#first article h1 {
+#fine-art h1 {
 	font-family: 'Lilita One', cursive;
 	font-size: 70px;
 	color: white;
-	text-shadow: .1em .1em #333;
-	width: 75%;
 	margin: 0 0 20px 0;
 }
-#first article p,
-#first article a {
-	
+
+#fine-art article {
+	position: absolute;
+	opacity: .1;
+	-webkit-transition: opacity .2s linear;  
+	-moz-transition: opacity .2s linear;  
+	-o-transition: opacity .2s linear;  
+	-ms-transition: opacity .2s linear;  
+	transition: opacity .2s linear;
+}
+
+#fine-art article p {
 	background: rgba(0, 0, 0, 0.2);
-	/*
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	*/
 	padding: 10px;
 
 	color: #EEE;
 	font-size: 16px;
 }
 
-/* Background Only */
-#second { padding: 50px 0;}
-#second article { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/screenshot.png) repeat #333; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#second article p { margin-bottom: 25px; }
-#second article a { color: #ff0;}
+#fine-art article a {
+	font-weight: bold;
+}
 
-/* Photograph */
-#third article {  background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/screenshot.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
-#third .photograph { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/screenshot.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
-#third article p { width: 300px; margin-bottom: 25px; }
+#first article {
+	opacity: 1;
+	left: 4%;
+	top: 30%;
+}
 
-/* HTML5 Video */
-#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#fourth article p { width: 300px; margin: 50px 0; }
-#fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+#first article h1 {
+	text-shadow: .1em .1em #333;
+	width: 75%;
+}
 
-/* The End */
-#theend .byebye { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/screenshot.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#fine-art article:hover {
+	opacity: 1;
+}
 
-
+#second article,
+#third article,
+#fourth article,
+#fifth article {
+	height: 80%;
+	width: 30%;
+	right: 5%;
+	top: 10%;
+}

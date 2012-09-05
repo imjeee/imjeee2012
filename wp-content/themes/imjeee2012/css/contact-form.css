@@ -75,6 +75,10 @@ nav li {
   line-height: 23.5px;
 }
 
+nav a:hover {
+  color: white;
+}
+
 /* keyboard arrows */
 
 #keyboard-nav {

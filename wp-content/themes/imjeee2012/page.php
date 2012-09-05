@@ -9,10 +9,8 @@
 				<div id="post-<?php the_ID(); ?>" <?php post_class('page'); ?>>
 					<article>
 						<?php edit_post_link('<small>Edit this entry</small>','',''); ?>
-			
 						<div class="post-content page-content">
 							<?php the_content(); ?>
-							<?php wp_link_pages('before=<div class="pagination">&after=</div>'); ?>
 						</div><!--.post-content .page-content -->
 					</article>
 				</div><!--#post-# .post-->
