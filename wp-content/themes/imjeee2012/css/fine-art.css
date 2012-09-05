@@ -9,8 +9,6 @@
  */
 
 
-article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
-
 .story { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
 #first { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/1.jpg) 50% 0 no-repeat fixed; }
@@ -26,7 +24,7 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 
 #fine-art h1 {
 	font-family: 'Lilita One', cursive;
-	font-size: 70px;
+	font-size: 60px;
 	color: white;
 	margin: 0 0 20px 0;
 }
@@ -53,6 +51,10 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 	font-weight: bold;
 }
 
+#fine-art article:hover {
+	opacity: 1;
+}
+
 #first article {
 	opacity: 1;
 	left: 4%;
@@ -64,16 +66,17 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
 	width: 75%;
 }
 
-#fine-art article:hover {
-	opacity: 1;
+
+#first article p {
+	width: 40%;
 }
 
 #second article,
 #third article,
 #fourth article,
 #fifth article {
+	width: 40%;
 	height: 80%;
-	width: 30%;
 	right: 5%;
 	top: 10%;
 }
