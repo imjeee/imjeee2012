@@ -33,7 +33,13 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-		  ajaxLoadPageInit();
+		  //ajaxLoadPageInit();
+
+		  $('#openContact').live("click", function(){
+		  	alert('hi');
+		  	$('#content').load("<?php bloginfo( 'template_url' ); ?>/css/theme.css");
+		  });
+
 		  contactFormInit();
 		});
 	</script>
@@ -42,10 +48,10 @@
 
   <!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/theme.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/img-grid.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/style.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/contact-form.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/sidebar.css" />
 
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/serious-work.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/fine-art.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/about.css" />
 

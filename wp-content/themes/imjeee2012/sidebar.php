@@ -16,9 +16,3 @@
 		</form>
 	</ul>
 </nav>
-<div id="keyboard-nav">
-	<div class="arrow-btn arrow-top"><a href=""></a></div>
-	<div class="arrow-btn arrow-left"><a href=""></a></div>
-	<div class="arrow-btn arrow-down"><a href=""></a></div>
-	<div class="arrow-btn arrow-right"><a href=""></a></div>
-</div>
