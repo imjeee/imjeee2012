@@ -29,17 +29,11 @@
 	<!-- Javascript -->
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.8.0.min.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.anchor.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-		  //ajaxLoadPageInit();
-
-		  $('#openContact').live("click", function(){
-		  	alert('hi');
-		  	$('#content').load("<?php bloginfo( 'template_url' ); ?>/css/theme.css");
-		  });
-
 		  contactFormInit();
 		});
 	</script>
@@ -59,5 +53,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'><!-- used on graphic design page -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'><!-- used on about jie page -->
   <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- used on fine art page -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- used on serious work page -->
 
 </head>

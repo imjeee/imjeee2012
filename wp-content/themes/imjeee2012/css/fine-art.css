@@ -11,16 +11,16 @@
 
 .story { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.3); border-bottom: 1px solid rgba(0,0,0,0.4); box-shadow: 0 0 50px rgba(0,0,0,0.8);}
 
-#first { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/1.jpg) 50% 0 no-repeat fixed; }
-#second { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/2.jpg) 50% 0 no-repeat fixed; }
+#first { background: url(http://imgur.com/ag3hI.jpg) 50% 0 no-repeat fixed; }
+#second { background: url(http://i.imgur.com/6SVfA.jpg) 50% 0 no-repeat fixed; }
 #third { 
-	background-image: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/3.jpg);
+	background-image: url(http://i.imgur.com/jfmtD.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 }
-#fourth { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/4.jpg) 50% 0 no-repeat fixed; }
-#fifth { background: url(http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/6.jpg) 50% 0 no-repeat fixed; }
+#fourth { background: url(http://i.imgur.com/n9xtI.jpg) 50% 0 no-repeat fixed; }
+#fifth { background: url(http://i.imgur.com/CLefQ.jpg) 50% 0 no-repeat fixed; }
 
 #fine-art h1 {
 	font-family: 'Lilita One', cursive;

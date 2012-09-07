@@ -1,12 +1,5 @@
 <?php
 
-	// ajax wordpress
-	if ( ! is_admin() ) {
-		$url = get_stylesheet_directory_uri() . '/js/';
-    wp_enqueue_script( 'hash-change', "{$url}jquery.ba-hashchange.min.js", array('jquery'), '', true);
-    wp_enqueue_script( 'ajax-theme', "{$url}ajax.js", array( 'hash-change' ), '', true);
-	}
-
 	// enables wigitized sidebars
 	if ( function_exists('register_sidebar') )
 

@@ -38,9 +38,10 @@ li.contact-info {
   font-family: Helvetica, Sans-serif;
   font-size: 13px;
   font-weight: bold;
+  color: grey;
   margin: -5px 0 0 0;
   padding: 5px;
-  background-color: gray;
+  background-color: #333;
   border-width: 0;
   width: 45.5%;
   cursor: pointer;
@@ -55,6 +56,7 @@ li.contact-info {
 }
 
 #contact-form button:hover {
+  color: #333;
   background-color: white;
 }
 
