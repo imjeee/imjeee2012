@@ -1,7 +1,7 @@
 /* serious-work */
 
 #serious-work {
-  margin: 0 0 150px 0;
+  margin: 10% 0 150px 0;
 }
 
 #title {
@@ -21,14 +21,14 @@
 
 .work-grid {
   width: 285px;
-  height: 280px;
+  height: 295px;
 
-  margin: 10px 40px 40px 10px;
+  margin: 10px 30px 30px 10px;
   float: left;
   
-  -moz-box-shadow:    0 0 10px 3px #111;
+  -moz-box-shadow:    0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         0 0 10px 3px #111;
+  box-shadow:         1px 1px 10px -3px #BBB;
 }
 
 .img-backdrop img{
@@ -42,20 +42,10 @@
   border-top-left-radius: 5px;
   -moz-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
-
-  opacity: 1;
-  -webkit-transition: opacity .2s linear;  
-  -moz-transition: opacity .2s linear;  
-  -o-transition: opacity .2s linear;  
-  -ms-transition: opacity .2s linear;  
-  transition: opacity .2s linear;  
-}
-
-.img-backdrop img:hover {
-  opacity: .8;
 }
 
 .img-details {
+  height: 80px;
   padding: 15px;
   margin: 0;
   font-family: Helvetica, sans-serif;
@@ -72,14 +62,12 @@
 }
 
 .img-details h4, .img-details h4 a {
-  height: 40px;
-
   font-family: 'PT Sans', Helvetica, sans-serif;
   font-weight: 700;
   font-style: italic;
   font-size: 16px;
   color: #3FA6F2;
-  padding: 0 0 10px 0;
+  padding: 5px 0 10px 0;
   margin: 0;
 }
 
@@ -89,52 +77,4 @@
   font-size: 13px;
   color: gray;
   line-height: 15px;
-}
-
-/* our menu styles */
-#sticky_navigation_wrapper {
-  width:100%;
-  height:50px;
-  left: 19%;
-  top: 50px;
-  
-  margin: 0 0 50px 0;
-  padding: 0;
-}
-
-#sticky_navigation { 
-}
-
-#sticky_navigation ul { 
-  list-style:none; 
-  margin:0; 
-  padding:0;
-}
-
-#sticky_navigation ul li { 
-  margin:0; 
-  padding:0; 
-  display:inline;
-}
-
-#sticky_navigation ul li a { 
-  display:block; 
-  float:left; 
-  margin:0 0 0 5px; 
-  padding:0 20px; 
-  height:40px; 
-  line-height:40px; 
-  font-size:14px; 
-  font-family: Helvetica, Sans-serif; 
-  font-weight:bold; 
-  color: #999;
-  background: #333;
-  -moz-border-radius:3px; 
-  -webkit-border-radius:3px; 
-  border-radius:3px;
-}
-
-#sticky_navigation ul li a:hover, #sticky_navigation ul li a.selected { 
-  color:#fff; 
-  background:#111; 
 }

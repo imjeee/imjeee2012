@@ -1,5 +1,11 @@
 /* navigation */
 
+#logo {
+  font-family: 'Trykker', serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
 li.contact-info {
   font-size: 13.4px;
   font-weight: bold;
@@ -71,14 +77,14 @@ nav ul{
 }
 
 nav li {
-  font-size: 14px;
-  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
   list-style-type: none;
-  line-height: 23.5px;
+  line-height: 25px;
 }
 
-nav a:hover {
-  color: white;
+nav a:hover, li.current_page_item a{
+  color: black;
 }
 
 /* keyboard arrows */

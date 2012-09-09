@@ -55,4 +55,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- used on fine art page -->
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- used on serious work page -->
 
+<link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+
+
 </head>
