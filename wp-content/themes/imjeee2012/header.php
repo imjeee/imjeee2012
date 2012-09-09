@@ -29,14 +29,7 @@
 	<!-- Javascript -->
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.8.0.min.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.anchor.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/functions.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function(){
-		  contactFormInit();
-		});
-	</script>
 
 	<?php wp_head(); ?> <?php /* this is used by many Wordpress features and for plugins to work proporly */ ?>
 
@@ -50,13 +43,12 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/about.css" />
 
 
-	<link href='http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css'><!-- used on graphic design page -->
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'><!-- used on about jie page -->
-  <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- used on fine art page -->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- used on serious work page -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'><!-- about jie paragraph font -->
+  <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- big bold goofy text on fine art first page -->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- serious work grid each element's title font -->
 
-<link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'><!-- logo font -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'><!-- nav font -->
 
 
 </head>
