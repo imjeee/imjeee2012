@@ -18,7 +18,7 @@
 				  if ( has_post_thumbnail() ): ?>
 		        <div class="work-grid">
 				      <div class="img-backdrop">
-					      <a href="#" target="_self"><?php echo the_post_thumbnail(); ?></a>
+					      <a href="<?php echo get_permalink(); ?>" target="_self"><?php echo the_post_thumbnail(); ?></a>
 				      </div><!-- img-backdrop -->
 			        <div class="img-details">
 				        <h4><?php echo the_post_thumbnail_title(); ?></h4>

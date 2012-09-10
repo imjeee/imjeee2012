@@ -1,0 +1,83 @@
+#single {
+  margin: 5% 0 5% 0;
+  padding: 0;
+}
+
+.post-img-web {
+  width: 78%;
+  margin: 0 30px 20px 0;
+  padding: 23px 0 0 0;
+
+  background-image: url("http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/helper/web-bg.png");
+  
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+   
+  -moz-box-shadow:    0 0 10px 3px grey;
+  -webkit-box-shadow: 0 0 10px 3px #111;
+  box-shadow:         1px 1px 10px -3px #BBB;
+}
+
+#post-details {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+
+  min-width: 150px;
+  max-width: 250px;
+  margin: 12px 10px 0 0;
+  padding: 0;
+  border-top: 1px solid #CCC;
+}
+
+#post-details h1 {
+  margin: 0;
+  padding: 7px 0 0 0;
+
+  font-size: 30px;
+  color: #999;
+}
+
+#post-details p.cat {
+  margin: 0 0 10px 0;
+  padding: 2px 0 0 1px;
+  font-size: 13px;
+  text-transform:uppercase;
+  color: #AAA;
+}
+
+#single .tags {
+  margin: 30px 0 0 0;
+  padding: 0 0 7px 0;
+  border-bottom: 1px solid #CCC;
+}
+
+.tags ul {
+  margin: 0;
+  padding: 0;
+}
+
+#single li.post-tag-design {
+  display: inline;
+  list-style-type: none;
+  padding: 18px;
+  margin: 0 10px 10px 0;
+
+  background-image: url("http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/helper/design.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+p.project-description {
+  margin: 60px 0 0 0;
+  padding: 0;
+
+  font-size: 15px;
+  color: #999;
+  line-height: 21px;
+}
+

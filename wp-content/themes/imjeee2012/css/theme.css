@@ -15,16 +15,16 @@ body {
 }
 
 .left {
-  width:16%;
+  width:10%;
   position:fixed;
   top: 30%;
   padding: 0 0 0 20px;
 }
 
 .right {
-  width:81%;
+  width:85%;
   position: absolute;
-  left: 19%;
+  left: 14%;
 
   padding: 0;
   margin: 0;
