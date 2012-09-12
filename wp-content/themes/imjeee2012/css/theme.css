@@ -15,19 +15,22 @@ body {
 }
 
 .left {
-  width:10%;
+  width: 15%
+  min-width: 190px;
   position:fixed;
   top: 30%;
   padding: 0 0 0 20px;
+  z-index: 100;
 }
 
 .right {
-  width:85%;
+  width:83%;
   position: absolute;
-  left: 14%;
+  left: 16%;
 
   padding: 0;
   margin: 0;
+  z-index: 0;
 }
 
 a, a:link {

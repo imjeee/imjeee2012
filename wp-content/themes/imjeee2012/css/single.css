@@ -1,31 +1,85 @@
 #single {
-  margin: 5% 0 5% 0;
+  margin: 63px 0 50px 0;
   padding: 0;
 }
 
-.post-img-web {
-  width: 78%;
-  margin: 0 30px 20px 0;
-  padding: 23px 0 0 0;
-
-  background-image: url("http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/helper/web-bg.png");
-  
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+.post-img {
+  width: 74%;
+  max-width: 2000px;
+  margin: 0 30px 50px 0;
+  background-repeat: no-repeat;
    
   -moz-box-shadow:    0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
   box-shadow:         1px 1px 10px -3px #BBB;
 }
 
-#post-details {
-  position: absolute;
-  top: 10%;
-  left: 80%;
+.post-img-none {
+  width: 74%;
+  max-width: 2000px;
+  margin: 0 30px 50px 0;
+}
 
-  min-width: 150px;
-  max-width: 250px;
-  margin: 12px 10px 0 0;
+.post-img-web {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  padding: 23px 0 0 0;
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/web-bg.png");
+}
+
+.post-img-photoshop {
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+
+  padding: 34px 0 0 0;
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/photoshop-bg.png");
+}
+
+
+.post-img-preview {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+  padding: 55px 0 0 0;
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/preview-bg.png");
+}
+
+.post-img-illustrator {
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+
+  padding: 35px 0 0 0;
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/illustrator-bg.png");
+}
+
+
+#post-details {
+  position: fixed;
+  top: 50px;
+  left: 81%;
+
+  min-width: 100px;
+  max-width: 350px;
+  margin: 14px 20px 0 0;
   padding: 0;
   border-top: 1px solid #CCC;
 }
@@ -34,14 +88,16 @@
   margin: 0;
   padding: 7px 0 0 0;
 
-  font-size: 30px;
-  color: #999;
+  font-size: 20px;
+  color: #777;
+  letter-spacing: -1.5px;
+  line-height: 24px;
 }
 
 #post-details p.cat {
   margin: 0 0 10px 0;
   padding: 2px 0 0 1px;
-  font-size: 13px;
+  font-size: 12px;
   text-transform:uppercase;
   color: #AAA;
 }
@@ -57,27 +113,26 @@
   padding: 0;
 }
 
-#single li.post-tag-design {
+.tags ul li {
   display: inline;
   list-style-type: none;
-  padding: 18px;
-  margin: 0 10px 10px 0;
+}
 
-  background-image: url("http://localhost:8888/imjeee2012/wp-content/themes/imjeee2012/images/helper/design.png");
+.tag-img {
   background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-p.project-description {
+.project-description p {
   margin: 60px 0 0 0;
   padding: 0;
 
-  font-size: 15px;
+  font-size: 14px;
   color: #999;
-  line-height: 21px;
+  line-height: 18px;
 }
 
