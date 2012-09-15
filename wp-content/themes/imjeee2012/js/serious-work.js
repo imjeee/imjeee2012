@@ -62,7 +62,7 @@ $(function() {
   var $list = $('#list');
   var $data = $list.clone();
   
-  var $controls = $('ul.splitter ul');
+  var $controls = $('ul.splitter');
   
   $controls.each(function(i) {
     
@@ -78,9 +78,13 @@ $(function() {
       var button_segment = button_properties.segment;
 
       if (!selected) {
-
-        $buttons.parent().removeClass('selected-0').removeClass('selected-1').removeClass('selected-2');
+        // assume there are 30 categories or less
+        for (var i = 0; i < 30; i++){
+          $buttons.parent().removeClass('selected-' + i);
+          $buttons.parent().removeClass('selected');
+        }
         $button_container.addClass('selected-' + button_segment);
+        $button_container.addClass('selected');
         
         var sorting_type = determine_sort($controls.eq(1).find('a'));
         var sorting_kind = determine_kind($controls.eq(0).find('a'));

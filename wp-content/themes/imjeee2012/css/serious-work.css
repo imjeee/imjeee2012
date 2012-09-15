@@ -1,37 +1,69 @@
 /* serious-work */
 
 #serious-work {
-  margin: 10% 0 150px 0;
+  margin: 10% 0 10% 0;
 }
 
-#title {
-  font-family: Helvetica, Sans-serif;
-  font-weight: bold;
-  font-size: 80px;
-  color: #AAA;
-  border-top: 2px solid #333;
-  margin: 30px 0 10px 0;
+ul.splitter {
+  margin: 0 0 0 40px;
+  padding: 0;
+  display: block;
+  clear: both;
 }
 
-.section {
-  overflow: auto;
-  width: 100%;
+.splitter::after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+ul.splitter li {
+  padding: 10px 0 10px 0;
+  margin: 0 1px 0 0;
+  display: inline-block;
+  float: left;
+}
+
+ul.splitter li a {
   margin: 0;
+  padding: 10px 20px 12px 20px; /* padding top doesnt work... */
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: white;
+}
+
+ul.splitter li a:hover {
+  color: black;
+}
+
+ul.splitter li.selected {
+  border-bottom: solid 2px black;
+}
+
+.img-grid li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  overflow: hidden:
+  display: block;
 }
 
 .work-grid {
   width: 285px;
   height: 295px;
 
-  margin: 10px 30px 30px 10px;
-  float: left;
+  margin: 0 30px 30px 0;
   
   -moz-box-shadow:    0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
   box-shadow:         1px 1px 10px -3px #BBB;
 }
 
-.img-backdrop img{
+.work-grid img{
   width: 285px;
   height: 190px;
 
