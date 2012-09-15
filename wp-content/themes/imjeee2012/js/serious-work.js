@@ -77,6 +77,8 @@ $(function() {
       var selected = button_properties.selected;
       var button_segment = button_properties.segment;
 
+      $('html, body').animate({scrollTop:0}, 'slow');
+
       if (!selected) {
         // assume there are 30 categories or less
         for (var i = 0; i < 30; i++){
