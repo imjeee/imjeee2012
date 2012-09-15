@@ -1,8 +1,7 @@
 <nav>
-	<ul>
-		<li id="logo"><a href="<?php echo get_settings('home'); ?>">imjeee</a></li>
-		<li id="logo-sub">design + development</li>
-		<br /><br /><br />
+	<div id="logo">
+		<a href="<?php echo get_settings('home'); ?>"><h1>imjeee</h1>
+		<h3>design + development</a></h3>
+  </div>
 		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ));  ?>
-	</ul>
 </nav>
