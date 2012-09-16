@@ -55,3 +55,58 @@ a:active, a:visited {
 ul li {
  list-style: none;
 }
+
+/* SOCIAL ICONS - GENERAL */
+.social { list-style:none; margin: 15px 0 10px -10px; overflow: hidden; width: 100%}
+.social li { display:inline; float:left; background-repeat:no-repeat; background-size: 100% 100%; margin: 0 5px 5px 0; }
+.social li a { display:block; width: 30px; height: 30px; position:relative; text-decoration:none; }
+.social li a strong { font-size: 15px; font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding: 5px 10px 5px 10px; z-index:9999;
+ text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
+ -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* contact page */
+li.linkedin { background-image:url("../images/helper/contact-linkedIn.png"); }
+li.deviantart { background-image:url("../images/helper/contact-deviantart.png"); }
+li.tumblr { background-image:url("../images/helper/contact-tumblr.png"); }
+li.twitter { background-image:url("../images/helper/contact-twitter.png"); }
+
+
+/* contact page */
+li.s960gs { background-image:url("../images/helper/tag-960gs.png"); }
+li.actionscript { background-image:url("../images/helper/tag-Actionscript.png"); }
+li.android { background-image:url("../images/helper/tag-Android.png"); }
+li.cpp { background-image:url("../images/helper/tag-C++.png"); }
+li.css { background-image:url("../images/helper/tag-CSS.png"); }
+li.eclipse { background-image:url("../images/helper/tag-Eclipse.png"); }
+li.emacs { background-image:url("../images/helper/tag-EMACS.png"); }
+li.flash { background-image:url("../images/helper/tag-Flash.png"); }
+li.html { background-image:url("../images/helper/tag-HTML.png"); }
+li.illustrator { background-image:url("../images/helper/tag-Illustrator.png"); }
+li.iOS { background-image:url("../images/helper/tag-iOS.png"); }
+li.java { background-image:url("../images/helper/tag-Java.png"); }
+li.javascript { background-image:url("../images/helper/tag-Javascript.png"); }
+li.jquery { background-image:url("../images/helper/tag-jQuery.png"); }
+li.jqueryui { background-image:url("../images/helper/tag-jQueryUI.png"); }
+li.linux { background-image:url("../images/helper/tag-Linux.png"); }
+li.mac { background-image:url("../images/helper/tag-Mac.png"); }
+li.pc { background-image:url("../images/helper/tag-PC.png"); }
+li.photoshop { background-image:url("../images/helper/tag-Photoshop.png"); }
+li.php { background-image:url("../images/helper/tag-PHP.png"); }
+li.play { background-image:url("../images/helper/tag-Play.png"); }
+li.python { background-image:url("../images/helper/tag-Python.png"); }
+li.wordpress { background-image:url("../images/helper/tag-Wordpress.png"); }
+
+
+
+/* SOCIAL ICONS - CSS3 */
+#css3:hover li { opacity:0.2; }
+
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
+ -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;
+ -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
+ -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-15px; }

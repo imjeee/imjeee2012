@@ -32,9 +32,9 @@
               <div class="tags">
                 <?php $posttags = get_the_tags();
                       if (count($posttags) > 0) { ?>
-                <ul>
+                <ul class="social" id="css3">
                   <?php foreach($posttags as $tag){ ?>
-                  <li><img class="tag-img" src="<?php bloginfo( 'template_url' ); ?>/images/helper/tag-<?php echo $tag->name ?>.png" /></li>
+                  <li class="<?php echo $tag->slug ?>"><a href="#" target="_blank"><strong><?php echo $tag->name ?></strong></a></li>
                   <?php } ?>
                 </ul>
                 <?php } ?>

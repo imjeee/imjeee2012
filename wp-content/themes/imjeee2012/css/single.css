@@ -75,10 +75,10 @@
 #post-details {
   position: fixed;
   top: 50px;
-  left: 81%;
+  left: 80%;
 
   min-width: 100px;
-  max-width: 350px;
+  max-width: 325px;
   margin: 14px 20px 0 0;
   padding: 0;
   border-top: 1px solid #CCC;
@@ -102,28 +102,18 @@
 }
 
 #single .tags {
-  margin: 30px 0 0 0;
+  margin: 0;
   padding: 0 0 7px 0;
   border-bottom: 1px solid #CCC;
 }
 
 .tags ul {
   margin: 0;
-  padding: 0;
+  padding: 20px 40px 0 0;
 }
 
 .tags ul li {
-  display: inline;
-  list-style-type: none;
-}
-
-.tag-img {
-  background-repeat: no-repeat;
-  width: 25px;
-  height: 25px;
-
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  margin: 5px 5px 0 0;
 }
 
 .project-description p {

@@ -31,6 +31,7 @@
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.quicksand.js"></script><!-- serious work quicksand -->
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/serious-work.js"></script><!-- serious work quicksand -->
+	<script src="<?php bloginfo( 'template_url' ); ?>/js/contactForm.js"></script><!-- contact jquery contact form -->
 
 	<?php wp_head(); ?> <?php /* this is used by many Wordpress features and for plugins to work proporly */ ?>
 
@@ -40,6 +41,7 @@
 
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/serious-work.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/fine-art.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/contact.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/about.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/single.css" />
 
