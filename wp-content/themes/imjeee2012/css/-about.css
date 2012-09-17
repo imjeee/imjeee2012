@@ -3,11 +3,11 @@
 }
 
 #about .block {
-  margin: 0 5% 0 0;
+  margin: 5% 0 5% 0;
   padding: 0;  
 
-  width: 25%;
-  float: left;
+  max-width: 1000px;
+  min-width: 500px;
 
   background-color: white;
 
@@ -19,39 +19,29 @@
   border-radius: 5px;
 }
 
+
 #about h1 {
   margin: 0;
-  padding: 10px 10px 10px 20px;
+  padding: 20px 0 20px 40px;
 
-  border-bottom: 1px solid #EEE;
-  background-color: white;
+  border-bottom: solid 2px #EEE;
 
-  -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
+  background-color: #333;
+  font-size: 25px;
+  color: white;
 
-  -moz-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  color: gray;
+  -moz-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;  
 }
 
-.section {
-  overflow: auto;
-  width: 100%;
+#about img {
+  position: relative;
+  left: -40px;
+  top: -100px;
 
-  margin: 10% 0 10% 0;
-}
-
-.block p {
-  margin: 0;
-  padding: 20px;
-
-  font-size: 14px;
-  line-height: 20px;
-  color: gray;
+  float: right;
 }
 
 #jie {
@@ -71,12 +61,30 @@
   text-align: center;
 }
 
-.timeline {
+
+#experience {
+  padding: 30px 40px 40px 40px;
+}
+
+#experience p {
   margin: 0;
   padding: 0;
+  line-height: 20px;
+}
 
-  float: left;
-  width: 70%;
+#experience ul {
+  margin: 15px 0 40px 10px;
+  padding: 0;
+  
+  font-size: 16px;
+}
+
+#experience li {
+  margin: 0 0 10px 7px;
+  padding: 0;
+
+  list-style-type: square;
+  
 }
 
 ul.events {
@@ -113,56 +121,50 @@ ul.events li em {
 }
 
 ul.intervals {
-  margin: 0;
-  padding: 0 0 30px 0;
-
   list-style-type: none;
+  padding: 0 0 30px 0;
   display: block;
 }
 
 /* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
 .timeline ul.intervals li {
-  margin: 0 1px 0 0;
-  padding: 5px 0 5px 0;
+  margin: 0;
+  padding: 10px 0 0 0;
 
-  background-color: white;
-
+  border-top: 1px dashed #ccc;
+  border-right: 1px solid #ccc;
   color: gray;
   float: left;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   width: 9.6%;
-
-  -moz-box-shadow:    0 0 10px 3px grey;
-  -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
 }
 
-.skills-chart {
-  float: left;
-  width: 70%;
+#about li.first {
+  border-left: 1px solid #ccc;
 }
 
 /* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
 .skills-chart ul.intervals li {
-  margin: 0 2px 0 0;
-  padding: 5px 0 5px 0;
+  margin: 0;
+  padding: 10px 0 0 0;
 
-  background-color: white;
+  border-top: 1px dashed #ccc;
+  border-right: 1px solid #ccc;
 
   left: 0%;
 
   color: gray;
   float: left;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   width: 24.5%;
+}
 
-  -moz-box-shadow:    0 0 10px 3px grey;
-  -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
+ul.intervals li.first {
+  border-left: 1px solid #ccc;
 }
 
 .skills-chart ul.events li {
@@ -174,8 +176,4 @@ ul.intervals {
   font-size: 13px;
   font-weight: bold;
   color: white;
-
-  -moz-box-shadow:    0 0 10px 3px grey;
-  -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
 }
