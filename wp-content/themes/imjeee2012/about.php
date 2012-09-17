@@ -1,6 +1,6 @@
 <?php
    /*
-   Template Name: resume
+   Template Name: about
    */
    ?>
 
@@ -35,22 +35,23 @@
             <li>2012</li>
             <li class="last">2013</li>
           </ul> <!-- end .intervals -->          
-          <ul class="events">
-            <li style="width: 29%; left: 7%; border-top: 3px solid #89c5b9">
-				      <p><strong><a href="http://www.mica.edu" target="_blank">Maryland Institute College of Art</a></strong> (paint, draw and design)</p>
+          <ul class="events timeline-events">
+            <li style="margin: 0 0 0 7%; width: 31%; ">
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/mica.png'); background-size: cover;"></div>
+				      <p><strong><a href="http://www.mica.edu" target="_blank">Maryland Institute College of Art</a></strong><br /> BFA in Graphic Design</p>
             </li>
-            <li style="width: 17%; left: 39%; border-top: 3px solid #195192">
-				      <p><strong><a href="http://www.ainq.com" target="_blank">Audacious Inquiry</a></strong> (interactive designer)</p>
+            <li style="margin: 0 0 0 1%; width: 19%; ">
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/ai.png'); background-size: cover;"></div>
+				      <p><strong><a href="http://www.ainq.com" target="_blank">Audacious Inquiry</a></strong><br /> Interactive designer</p>
             </li>
-            <li style="width: 21%; left: 59%; border-top: 3px solid #c65e00">
-				      <p><strong><a href="http://www.utexas.edu/" target="_blank">University of Texas at Austin</a></strong> (hardcore coding)</p>
+            <li style="margin: 0 0 0 1%; width: 23%; ">
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/utexas.png'); background-size: cover;"></div>
+				      <p><strong><a href="http://www.utexas.edu/" target="_blank">University of Texas at Austin</a></strong><br /> (49hrs in Computer Science)</p>
             </li>
-            <li style="width: 56%; left: 29%;">
+            <li style="margin: 10px 0 0 0; width: 56%; left: 29%; clearflow: auto; ">
+              <div style="height: 70px; background-image: url('<?php bloginfo('template_url'); ?>/images/imjeee.png'); background-size: cover;"></div>
 				      <p><strong><a href="http://www.imjeee.com/" target="_blank">Freelance design + development work</a></strong> (your wish is my command)</p>
             </li>
-            <li style="width: 14%; left: 83%; border-top: 3px solid #cd0730">
-				      <p><strong><a href="http://www.nba.com/rockets/" target="_blank">Entering NBA draft</a></strong> ...</p>
-		        </li>
           </ul> <!-- end .events -->
         </div> <!-- end .timeline -->
         <!-- END Timeline Code -->

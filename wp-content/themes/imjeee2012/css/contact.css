@@ -74,28 +74,56 @@
 
 #contact-form button {
   margin: 0;
-  padding: 0 0 2px 0;
+  padding: 0;
 
-  font-family: Helvetica, Sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: gray;
-  letter-spacing: 0;
-
-  background-color: white;
   border-width: 0;
-  border-bottom: 2px solid #DDD;
-
-  cursor: pointer;
-
-  /*Transition*/
-  -webkit-transition: All 0.5s ease;
-  -moz-transition: All 0.5s ease;
-  -o-transition: All 0.5s ease;
-  -ms-transition: All 0.5s ease;
-  transition: All 0.5s ease;
 }
 
-#contact-form button:hover {
-  color: black;
+#sendButton {
+width:165px;
+height:33px;
+
+display:block;
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+text-align:center;
+text-shadow:1px 1px 0px #07526e;
+padding-top:14px;
+margin-left:auto;
+margin-right:auto;
+
+position:relative;
+left: 0;
+
+cursor:pointer;
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+background-image: -o-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+
+-webkit-border-radius: 3px;
+-webkit-border-radius: 3px;
+
+-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+}
+
+#sendButton:active {
+top:3px;
+-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
 }

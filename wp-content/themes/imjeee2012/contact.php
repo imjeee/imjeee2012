@@ -25,7 +25,7 @@
          <input type="text" name="senderName" id="senderName" placeholder="Your name" required="required" maxlength="40" />
          <input type="email" name="senderEmail" id="senderEmail" placeholder="Your email" required="required" maxlength="50" />
          <textarea name="message" id="message" placeholder="Please type your message..." required="required" rows="10" maxlength="10000"></textarea>
-         <button id="sendMessage" type="submit">Send Email</button>
+         <button id="sendButton" type="submit">Send Email</button>
        </form>
      </div>
    </div> <!-- right -->
