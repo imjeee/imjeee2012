@@ -46,4 +46,6 @@
     </div><!-- #serious-work -->
   </div> <!-- #right -->
 </body>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.quicksand.js"></script><!-- serious work quicksand -->
+<script src="<?php bloginfo( 'template_url' ); ?>/js/serious-work.js"></script><!-- serious work quicksand -->
 <?php get_footer(); /* this is used by many Wordpress features and plugins to work proporly */ ?>

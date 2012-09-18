@@ -19,7 +19,7 @@
       <div class="section">
         <div class="block">
           <h1>School + work</h1>
-          <p>Things I did not mention in that timeline: born in Xi'an, lived in Hebei, came to the US in 2000, and always called Houston home sweet home. I have unlocked other achievements in life as well: Cultural Shaper second place in drawing, Scholastic regional gold keys, National Art Honor's Society, Dean's list at MICA and UT, named bestman at my buddy's wedding, and scored many game winners in pick up basketball.</p>
+          <p>Things  not on the timeline: <a href="http://en.wikipedia.org/wiki/Xi'an" target="_blank">born in Xi'an</a>, <a href="http://en.wikipedia.org/wiki/Hebei" target="_blank">lived in Hebei</a>, came to the Houston in 2000. Achievements unlocked in life: <a href="http://www.cultureshapers.com/visual-arts/drawing-winners-03.php" target="_blank">Cultural Shaper second place in drawing</a>, Scholastic regional gold keys, National Art Honor's Society, Dean's list at MICA and UT, named bestman at my buddy's wedding, and scored many game winners in pick up basketball.</p>
         </div>
         <!-- BEGIN Timeline Code -->
         <div class="timeline">

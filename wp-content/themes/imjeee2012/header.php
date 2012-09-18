@@ -29,9 +29,6 @@
 	<!-- Javascript -->
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.8.0.min.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.quicksand.js"></script><!-- serious work quicksand -->
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/serious-work.js"></script><!-- serious work quicksand -->
-	<script src="<?php bloginfo( 'template_url' ); ?>/js/contactForm.js"></script><!-- contact jquery contact form -->
 
 	<?php wp_head(); ?> <?php /* this is used by many Wordpress features and for plugins to work proporly */ ?>
 
@@ -50,8 +47,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- big bold goofy text on fine art first page -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- serious work grid each element's title font -->
 
-<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'><!-- about me intro font -->
+  <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'><!-- about me intro font -->
   <link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'><!-- logo font -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'><!-- nav font -->
-
 </head>

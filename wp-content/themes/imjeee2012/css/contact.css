@@ -79,7 +79,21 @@
   border-width: 0;
 }
 
-#sendButton {
+#contact-form .ajax {
+  float: right;
+  position: relative;
+  top: -37px;
+  right: 2%;
+
+  font-weight: bold;
+  font-size: 14px;
+  color: #AAA;
+  
+  opacity: 0;
+}
+
+
+#submit {
 width:165px;
 height:33px;
 
@@ -120,7 +134,7 @@ background-image: -ms-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236
 box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
 }
 
-#sendButton:active {
+#submit:active {
 top:3px;
 -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
 -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
