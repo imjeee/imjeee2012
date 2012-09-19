@@ -10,13 +10,14 @@
   opacity: .7;
   filter:progid:DXImageTransform.Microsoft.BasicImage(opacity=.7);
 }
+
 #contact-box {
   margin: 0;
   padding: 0;
 
   position: fixed;
   left: 35%;
-  top: 20%;
+  top: 120%;
 
   z-index: 500;
 

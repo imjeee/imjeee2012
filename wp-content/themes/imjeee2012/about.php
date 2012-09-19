@@ -69,9 +69,9 @@
             <li>actually used in real projects</li>
             <li class="last">with google, I can get it done</li>
           </ul> <!-- end .intervals -->          
-          <ul class="events">
-            <li style="width: 98%; margin: 20px 0 5px 0; color: black; ">Programming Languages</li>
-            <li style="width: 76%; background-color: #e52836;">Java</li>
+          <ul class="events" style="margin: 40px 0 5px 0;">
+            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Programming Languages</li>
+            <li style="width: 72%; background-color: #e52836;">Java</li>
             <li style="width: 65%; background-color: #375e8c;">Python</li>
             <li style="width: 85%; background-color: #f9d21e;">CSS</li>
             <li style="width: 45%; background-color: #8bc53f;">C++</li>
@@ -80,18 +80,18 @@
             <li style="width: 50%; background-color: #3F1919;">Actionscript</li>
             <li style="width: 95%; background-color: #dc4d2f;">HTML</li>
 
-            <li style="width: 98%; margin: 20px 0 5px 0; color: black; ">Technology</li>
+            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Technology</li>
             <li style="width: 70%; background-color: #a5cd3c;">Android</li>
             <li style="width: 56%; background-color: #8aa276;">Play Framework</li>
             <li style="width: 52%; background-color: #4698bc;">Zend Framework</li>
             <li style="width: 66%; background-color: #4b81ad;">jQuery</li>
             <li style="width: 86%; background-color: #CCC;">960gs</li>
 
-            <li style="width: 98%; margin: 20px 0 5px 0; color: black; ">Applications</li>
-            <li style="width: 74%; background-color: #3d3177;">Eclipse</li>
-            <li style="width: 86%; background-color: #e99324;">Adobe Illustrator</li>
-            <li style="width: 82%; background-color: #355aac;">Adobe Photoshop</li>
-            <li style="width: 76%; background-color: #851d5c;">Adobe Indesign</li>
+            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Applications</li>
+            <li style="width: 70%; background-color: #3d3177;">Eclipse</li>
+            <li style="width: 95%; background-color: #e99324;">Adobe Illustrator</li>
+            <li style="width: 91%; background-color: #355aac;">Adobe Photoshop</li>
+            <li style="width: 85%; background-color: #851d5c;">Adobe Indesign</li>
             <li style="width: 90%; background-color: #d21b2e;">Adobe Flash</li>
 
           </ul> <!-- end .events -->

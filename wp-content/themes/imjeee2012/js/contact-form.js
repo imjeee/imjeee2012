@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   $('#contact-btn').click(function() {
     $('#contact-box').fadeTo("normal", 1);
+    $('#contact-box').css("top", "20%");
     $('#cover').fadeTo("normal", .7);
   });
 
