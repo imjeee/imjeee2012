@@ -66,7 +66,12 @@ $(document).ready(function() {
       $('.ajax').fadeOut("fast", function() {
         $(this).html('<p>GOT IT</p>');
         $(this).fadeTo("fast", 1, function() {
-          $('#contact-box').fadeOut("slow");
+          $('input, textarea').val('');
+          $('#cover').fadeOut("formal");
+          $('#contact-box').fadeOut("normal", function() {
+            $('.ajax').html('<p>SENDING</p>');
+            $('.ajax').fadeOut("fast");
+          });
         });
       });
     });
