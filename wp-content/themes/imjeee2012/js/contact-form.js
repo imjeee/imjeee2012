@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+  $('#contact-btn').click(function() {
+    $('#contact-box').fadeTo("normal", 1);
+    $('#cover').fadeTo("normal", .7);
+  });
+
+  $('#cover').click(function() {
+    $(this).fadeOut("normal");
+    $('#contact-box').fadeOut("normal");
+  });
+
   $('input, textarea').focus(function() {
     $(this).animate({ backgroundColor: "white" }, 'fast');
   });
@@ -54,8 +64,10 @@ $(document).ready(function() {
     .error(function() { })
     .complete(function() {
       $('.ajax').fadeOut("fast", function() {
-        $(this).html('<p>SENT COMPLETE</p>');
-        $(this).fadeTo("fast", 1);
+        $(this).html('<p>GOT IT</p>');
+        $(this).fadeTo("fast", 1, function() {
+          $('#contact-box').fadeOut("slow");
+        });
       });
     });
 

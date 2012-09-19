@@ -1,10 +1,30 @@
+#cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+  background-color: #000000;
+  opacity: .7;
+  filter:progid:DXImageTransform.Microsoft.BasicImage(opacity=.7);
+}
 #contact-box {
-  margin: 5% 0 0 0;
+  margin: 0;
   padding: 0;
+
+  position: fixed;
+  left: 35%;
+  top: 20%;
+
+  z-index: 500;
 
   max-width: 600px;
 
   background-color: white;
+
+  opacity: 0;
 
   -moz-box-shadow:    0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
@@ -94,50 +114,50 @@
 
 
 #submit {
-width:165px;
-height:33px;
+  width:165px;
+  height:33px;
 
-display:block;
-font-family: "Helvetica Neue", Helvetica, sans-serif;
-font-size:15px;
-font-weight:bold;
-color:#fff;
-text-decoration:none;
-text-align:center;
-text-shadow:1px 1px 0px #07526e;
-padding-top:14px;
-margin-left:auto;
-margin-right:auto;
+  display:block;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size:15px;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #07526e;
+  padding-top:14px;
+  margin-left:auto;
+  margin-right:auto;
 
-position:relative;
-left: 0;
+  position:relative;
+  left: 0;
 
-cursor:pointer;
+  cursor:pointer;
 
--webkit-user-select: none;
--moz-user-select: none;
--o-user-select: none;
-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 
-background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-background-image: -o-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-background-image: -moz-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-background-image: -webkit-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-background-image: -ms-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+  background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
 
--webkit-border-radius: 3px;
--webkit-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-border-radius: 3px;
 
--webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
--moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
--o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
 }
 
 #submit:active {
-top:3px;
--webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
--moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
--o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+  top:3px;
+  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
 }

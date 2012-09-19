@@ -29,6 +29,7 @@
 	<!-- Javascript -->
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.8.0.min.js"></script>
 	<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
+  <script src="<?php bloginfo( 'template_url' ); ?>/js/contact-form.js"></script>
 
 	<?php wp_head(); ?> <?php /* this is used by many Wordpress features and for plugins to work proporly */ ?>
 
