@@ -25,8 +25,8 @@
     </div>
 		<div id="serious-work">
       <ul id="list" class="img-grid">
-				<?php $args = array('numberposts' => 200);
-        $posts_array = get_posts( $args );
+				<?php 
+        $posts_array = query_posts('posts_per_page=-1&cat=-' . get_category_by_slug('fine-art')->term_id);
         for ($i = 0; $i < count($posts_array); ++$i){
                           $post = $posts_array[$i];
                           $post_cats = get_the_category(); ?>

@@ -1,25 +1,15 @@
-/**
- * Parallax Scrolling Tutorial
- * For Smashing Magazine
- * July 2011
- *  
- * Author: Richard Shepherd
- *		   www.richardshepherd.com
- * 		   @richardshepherd   
- */
-
-
 .story {
-  margin: 0 auto; 
+  margin: 0;
   padding: 0; 
 
   width: 100%; 
-  max-width: 2500px; 
-  height: 1500px; 
+  height: 1500px;
 
   position: relative; 
 
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
 }
 
 #first {
@@ -27,38 +17,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
-}
-
-#second {
-  background: url(http://i.imgur.com/6SVfA.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-#third { 
-	background-image: url(http://i.imgur.com/oqDgm.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-  background-size: cover;
-}
-
-#fourth { 
-  background: url(http://i.imgur.com/n9xtI.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-  background-size: cover;
-}
-
-#fifth { 
-  background: url(http://i.imgur.com/CLefQ.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
   background-size: cover;
 }
 
@@ -72,6 +30,10 @@
 #fine-art article {
 	position: absolute;
 	opacity: .1;
+
+  width: 70%;
+  min-width: 300px;
+
 	-webkit-transition: opacity .2s linear;  
 	-moz-transition: opacity .2s linear;  
 	-o-transition: opacity .2s linear;  
@@ -97,26 +59,10 @@
 
 #first article {
 	opacity: 1;
-	left: 4%;
+	left: 200px;
 	top: 17%;
 }
 
 #first article h1 {
 	text-shadow: .1em .1em #333;
-	width: 75%;
-}
-
-
-#first article p {
-	width: 40%;
-}
-
-#second article,
-#third article,
-#fourth article,
-#fifth article {
-	width: 40%;
-	height: 80%;
-	right: 5%;
-	top: 10%;
 }

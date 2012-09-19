@@ -12,12 +12,12 @@
 
   font-size: 35px;
   color: white;
-  background-color: gray;
+  background: rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 
 #logo a:hover h1{
-  background-color: black;
+  background: rgba(0, 0, 0, 1);
 }
 
 #logo h3 {
@@ -25,8 +25,12 @@
   padding: 5px 0;
 
   font-size: 12px;
-  color: gray;
+  color: rgba(0, 0, 0, 0.8);
   letter-spacing: 1px;
+}
+
+#logo h3:hover {
+  color: rgba(0, 0, 0, 1);
 }
 
 nav ul{
