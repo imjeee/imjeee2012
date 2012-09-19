@@ -88,17 +88,32 @@ ul.splitter li.selected {
   box-shadow:         1px 1px 10px -3px #BBB;
 }
 
-.work-grid img{
+.work-grid img {
   width: 285px;
   height: 190px;
 
   margin: 0 0 -10px 0;
   padding: 0;
 
+  filter: none;
+  -webkit-filter: grayscale(0);
+
+  -webkit-transition: All .3s linear;
+  -moz-transition: All .3s linear;
+  -o-transition: All .3s linear;
+  -ms-transition: All .3s linear;
+  transition: All .3s linear;
+
   -moz-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
   -moz-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+.work-grid img:hover {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
 }
 
 .img-details {
