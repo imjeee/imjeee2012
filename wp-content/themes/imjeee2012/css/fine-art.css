@@ -9,29 +9,58 @@
  */
 
 
-.story { 
-  height: 1000px; 
+.story {
+  margin: 0 auto; 
   padding: 0; 
-  margin: 0; 
+
   width: 100%; 
   max-width: 2500px; 
+  height: 1500px; 
+
   position: relative; 
-  margin: 0 auto; 
-  border-top: 1px solid rgba(255,255,255,0.3); 
-  border-bottom: 1px solid rgba(0,0,0,0.4); 
+
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-#first { background: url(http://imgur.com/ag3hI.jpg) 50% 0 no-repeat fixed; }
-#second { background: url(http://i.imgur.com/6SVfA.jpg) 50% 0 no-repeat fixed; }
+#first {
+  background-image: url(http://imgur.com/ag3hI.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#second {
+  background: url(http://i.imgur.com/6SVfA.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 #third { 
-	background-image: url(http://i.imgur.com/jfmtD.jpg);
+	background-image: url(http://i.imgur.com/oqDgm.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+  background-size: cover;
 }
-#fourth { background: url(http://i.imgur.com/n9xtI.jpg) 50% 0 no-repeat fixed; }
-#fifth { background: url(http://i.imgur.com/CLefQ.jpg) 50% 0 no-repeat fixed; }
+
+#fourth { 
+  background: url(http://i.imgur.com/n9xtI.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+  background-size: cover;
+}
+
+#fifth { 
+  background: url(http://i.imgur.com/CLefQ.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+  background-size: cover;
+}
 
 #fine-art h1 {
 	font-family: 'Lilita One', cursive;
@@ -69,7 +98,7 @@
 #first article {
 	opacity: 1;
 	left: 4%;
-	top: 30%;
+	top: 17%;
 }
 
 #first article h1 {
