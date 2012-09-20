@@ -12,10 +12,11 @@
   </div><!-- left -->
   <div class="right">
     <div id="about">
-      <div id="jie">
-        <p>Jie is a designe & developer currently living in Austin. Back in his hay days, he would roll with <a href="http://www.ainq.com" target="_blank">suits and ties during the day</a>, and ball till late at night with the rough and tumble playas in the deepest ghettos on the street of Baltimore. Please feel free to <a href="http://www.imjeee.com/contact/" target="_self">get in touch and discuss contract options</a> as he's currently a free agent.
-      </div><!-- #jie -->
-
+      <div class="section">
+        <div id="jie">
+          <p>Jie is a designer & developer in Austin. He likes basketball, <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">Game of Thrones</a>, keyboard on a Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">Sundance movies</a>, and (currently trying to like) hipster music. Please grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/resume.pdf" target="_blank">his resume</a>, and if you like what you see, <a href="#" class="contact-btn">get in touch!</a></p>
+        </div><!-- #jie -->
+      </div>
       <div class="section">
         <div class="block">
           <h1>School + work</h1>

@@ -6,7 +6,7 @@
 		<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ));  ?>
     <ul>
       <li>
-        <div id="contact-btn"><a href="#">Contact</a></div>
+        <div class="contact-btn"><a href="#">Contact</a></div>
       </li>
     </ul>
 

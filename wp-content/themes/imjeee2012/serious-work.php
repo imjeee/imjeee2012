@@ -13,7 +13,10 @@
     <div id="cat_nav">
       <ul class="splitter">
         <li class="segment-0 selected-0 selected"><a href="#" data-value="all">All</a></li>
-        <?php $categories = get_categories();
+        <?php
+           $fineart = get_category_by_slug('fine-art')->term_id;
+        $args = array( 'exclude' => $fineart);
+        $categories = get_categories( $args );
               for($i = 0; $i < count($categories); ++$i){ ?>
               <li class="segment-<?php echo ($i + 1) ?>">
                 <a href="#" data-value="<?php echo $categories[$i]->slug; ?>">
@@ -26,7 +29,7 @@
 		<div id="serious-work">
       <ul id="list" class="img-grid">
 				<?php 
-        $posts_array = query_posts('posts_per_page=-1&cat=-' . get_category_by_slug('fine-art')->term_id);
+        $posts_array = query_posts('posts_per_page=-1&cat=-' . $fineart);
         for ($i = 0; $i < count($posts_array); ++$i){
                           $post = $posts_array[$i];
                           $post_cats = get_the_category(); ?>

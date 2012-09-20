@@ -10,6 +10,9 @@
   .left ul li a{
     color: white;
   }
+  .left ul li a:hover {
+    color: black;
+  }
 </style>
 
 <body <?php body_class(); ?>>
