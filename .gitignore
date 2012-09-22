@@ -1,3 +1,13 @@
 wp-config.php
 *.psd
 *.ai
+.htaccess
+
+wp-admin/
+wp-includes/
+
+.ssh/
+.gitconfig
+.log
+.viminfo
+logs/
