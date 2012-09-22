@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  submitEnabled = true;
+
   $('.contact-btn').click(function() {
     $('#contact-box').fadeTo("normal", 1);
     $('#contact-box').css("top", "20%");
@@ -20,6 +22,12 @@ $(document).ready(function() {
 
     /* stop form from submitting normally */
     event.preventDefault(); 
+
+    /* if submit disabled, return without doing anything, else disable it and go on */
+    if (submitEnabled == false)
+      return;
+    else
+      submitEnabled = false;
 
     var url = 'http://imjeee.com/wp-content/themes/imjeee2012/process.php';
     var name = $('input[name=name]');
@@ -54,8 +62,6 @@ $(document).ready(function() {
     url = url + data;
     console.log(data);
 
-    $('#submit').attr("disabled", "disabled");
-
     $('.ajax').fadeTo("fast", 1);
 
     var jqxhr = $.post( url, function(data) {
@@ -67,8 +73,9 @@ $(document).ready(function() {
       $('.ajax').fadeOut("fast", function() {
         $(this).html('<p>GOT IT</p>');
         $(this).fadeTo("fast", 1, function() {
+          submitEnabled = true;
           $('input, textarea').val('');
-          $('#cover').fadeOut("formal");
+          $('#cover').fadeOut("normal");
           $('#contact-box').fadeOut("normal", function() {
             $('.ajax').html('<p>SENDING</p>');
             $('.ajax').fadeOut("fast");

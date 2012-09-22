@@ -23,8 +23,8 @@
 	<div id="fine-art"><!-- Section #1 / Intro -->
 		<section id="first" class="story" data-speed="8" data-type="background">
 			<article>
-				<h1>WHEN I'M NOT MESSING AROUND AND GETTING TRIPLE DOUBLES</h1>
-				<p>I draw, I paint, and I take pictures without filters from Instagram.</p>
+				<h1>i draw, i paint, and i take pictures without filters from instagram .</h1>
+        <p></p>
 			</article>
 		</section>
 		<?php $posts_array = query_posts('posts_per_page=-1&cat=' . get_category_by_slug('fine-art')->term_id);

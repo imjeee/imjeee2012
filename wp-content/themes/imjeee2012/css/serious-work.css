@@ -1,13 +1,9 @@
-/* serious-work */
-
-#serious-work {
-  margin: 10% 0 10% 0;
-}
-
 #cat_nav {
   position: fixed;
   top: 1%;
   left: 16%;
+
+  z-index: 100;
 }
 
 ul.splitter {
@@ -68,6 +64,11 @@ ul.splitter li.selected {
   border-bottom: solid 2px black;
 }
 
+/* serious-work */
+
+#serious-work {
+  margin: 10% 0 10% 0;
+}
 
 .img-grid li {
   margin: 0;
@@ -91,6 +92,8 @@ ul.splitter li.selected {
 .work-grid img {
   width: 285px;
   height: 190px;
+
+  z-index: -1;
 
   margin: 0 0 -10px 0;
   padding: 0;

@@ -14,7 +14,7 @@
     <div id="about">
       <div class="section">
         <div id="jie">
-          <p>Jie is a designer & developer in Austin. He likes basketball, <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">Game of Thrones</a>, keyboard on a Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">Sundance movies</a>, and (currently trying to like) hipster music. Please grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/resume.pdf" target="_blank">his resume</a>, and if you like what you see, <a href="#" class="contact-btn">get in touch!</a></p>
+          <p>Jie is a designer & developer in Austin. He likes basketball, <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">Game of Thrones</a>, keyboard on a Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">Sundance movies</a>, and (currently experimenting with) hipster music. Please grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>, and if you like what you see, <a class="contact-btn">get in touch!</a></p>
         </div><!-- #jie -->
       </div>
       <div class="section">
@@ -25,7 +25,7 @@
         <!-- BEGIN Timeline Code -->
         <div class="timeline">
           <ul class="intervals">
-            <li class="first">2004</li>
+            <li>2004</li>
             <li>2005</li>
             <li>2006</li>
             <li>2007</li>
@@ -34,24 +34,24 @@
             <li>2010</li>
             <li>2011</li>
             <li>2012</li>
-            <li class="last">2013</li>
+            <li>2013</li>
           </ul> <!-- end .intervals -->          
           <ul class="events timeline-events">
             <li style="margin: 0 0 0 7%; width: 31%; ">
-              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/mica.png'); background-size: cover;"></div>
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/mica.png'); background-size: cover; background-position: center;"></div>
 				      <p><strong><a href="http://www.mica.edu" target="_blank">Maryland Institute College of Art</a></strong><br /> BFA in Graphic Design</p>
             </li>
             <li style="margin: 0 0 0 1%; width: 19%; ">
-              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/ai.png'); background-size: cover;"></div>
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/ai.png'); background-size: cover; background-position: center;"></div>
 				      <p><strong><a href="http://www.ainq.com" target="_blank">Audacious Inquiry</a></strong><br /> Interactive designer</p>
             </li>
             <li style="margin: 0 0 0 1%; width: 23%; ">
-              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/utexas.png'); background-size: cover;"></div>
-				      <p><strong><a href="http://www.utexas.edu/" target="_blank">University of Texas at Austin</a></strong><br /> (49hrs in Computer Science)</p>
+              <div style="height: 120px; background-image: url('<?php bloginfo('template_url'); ?>/images/utexas.png'); background-size: cover; background-position: center;"></div>
+				      <p><strong><a href="http://www.utexas.edu/" target="_blank">University of Texas at Austin</a></strong><br /> 49hrs in Computer Science</p>
             </li>
             <li style="margin: 10px 0 0 0; width: 56%; left: 29%; clearflow: auto; ">
               <div style="height: 70px; background-image: url('<?php bloginfo('template_url'); ?>/images/imjeee.png'); background-size: cover;"></div>
-				      <p><strong><a href="http://www.imjeee.com/" target="_blank">Freelance design + development work</a></strong> (your wish is my command)</p>
+				      <p><strong><a href="http://www.imjeee.com/" target="_blank">Freelance design + development work</a></strong> I make'em look gooood</p>
             </li>
           </ul> <!-- end .events -->
         </div> <!-- end .timeline -->

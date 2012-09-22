@@ -25,14 +25,12 @@
 	font-size: 60px;
 	color: white;
 	margin: 0 0 20px 0;
+
+  text-transform: uppercase;
 }
 
 #fine-art article {
-	position: absolute;
-	opacity: .1;
-
-  width: 70%;
-  min-width: 300px;
+  width: 60%;
 
 	-webkit-transition: opacity .2s linear;  
 	-moz-transition: opacity .2s linear;  
@@ -49,18 +47,10 @@
 	font-size: 16px;
 }
 
-#fine-art article a {
-	font-weight: bold;
-}
-
-#fine-art article:hover {
-	opacity: 1;
-}
-
 #first article {
-	opacity: 1;
-	left: 200px;
-	top: 17%;
+	left: 250px;
+  position: fixed;
+	top: 28.5%;
 }
 
 #first article h1 {
