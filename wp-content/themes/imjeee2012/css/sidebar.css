@@ -1,5 +1,24 @@
 /* navigation */
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+nav a:hover, li.current_page_item a{
+  color: black;
+}
+
 #logo {
   font-family: "Helvetica Neue", Helvetica, Sans-serif;
   font-weight: bold;
@@ -37,25 +56,6 @@
 
 #logo h3:hover {
   color: rgba(0, 0, 0, 1);
-}
-
-nav ul{
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  margin: 0;
-  padding: 0;
-
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  list-style-type: none;
-  line-height: 25px;
-}
-
-nav a:hover, li.current_page_item a{
-  color: black;
 }
 
 .contact-btn {
