@@ -1,6 +1,6 @@
 #cat_nav {
   position: fixed;
-  top: 1%;
+  top: 3%;
   left: 16%;
 
   z-index: 100;
@@ -22,44 +22,23 @@ ul.splitter {
 }
 
 ul.splitter li {
-  padding: 10px 0 10px 0;
-  margin: 0 5px 0 0;
+  padding: 0;
+  margin: 0 15px 0 0;
   display: inline-block;
   float: left;
-
-  -moz-box-shadow:    0 0 5px 3px grey;
-  -webkit-box-shadow: 0 0 5px 3px #111;
-  box-shadow:         1px 1px 5px -2px #DDD;
 }
 
-
-ul.splitter li:first-child a {
-  border: 1px solid #B1A451;  
-  -moz-border-top-left-radius: 3px;
-  border-top-left-radius: 3px;
-  -moz-border-bottom-left-radius: 3px;
-  border-bottom-left-radius: 3px;  
-}
-
-ul.splitter li:last-child a {
-  border: 1px solid #B1A451;  
-  -moz-border-top-right-radius: 3px;
-  border-top-right-radius: 3px;
-  -moz-border-bottom-right-radius: 3px;
-  border-bottom-right-radius: 3px;  
-}
 
 ul.splitter li a {
   margin: 0;
-  padding: 10px 20px 12px 20px; /* padding top doesnt work... */
+  padding: 0 10px 5px 10px; /* padding top doesnt work... */
   font-family: "Helvetica Neue", Helvetica, Sans-serif;
-  color: gray;
+  color: black;
   font-size: 13px;
   font-weight: bold;
 
-  border: 1px solid #B1A451;  
-
-  background-color: white;
+  border-bottom: 1px solid #B1A451;  
+  background-color: ##F4F3EF;
 }
 
 ul.splitter li a:hover, ul.splitter li.selected a {
@@ -67,8 +46,7 @@ ul.splitter li a:hover, ul.splitter li.selected a {
 }
 
 ul.splitter li.selected a {
-  color: white;
-  background-color: #B1A451;
+  border-bottom: 5px solid #B1A451;  
 }
 
 /* serious-work */
@@ -89,7 +67,6 @@ ul.splitter li.selected a {
   width: 285px;
   height: 295px;
 
-  background-color: white;
   margin: 0 50px 50px 0;
 
   -moz-box-shadow:    0 0 10px 3px grey;
@@ -134,6 +111,7 @@ ul.splitter li.selected a {
   margin: 0;
   font-family: Helvetica, sans-serif;
 
+  background-color: white;
   border: 1px solid #B1A451;
 
   -moz-border-bottom-left-radius: 5px;
