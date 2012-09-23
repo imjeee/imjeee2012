@@ -39,7 +39,7 @@ ul.splitter li a {
   letter-spacing: .1em;
 
   border-bottom: 1px solid #B1A451;  
-  background-color: ##F4F3EF;
+  background-color: #F4F3EF;
 }
 
 ul.splitter li a:hover, ul.splitter li.selected a {
