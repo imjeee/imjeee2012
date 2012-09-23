@@ -2,7 +2,7 @@
 
 <style type="text/css">
   body {
-    background-image: url('<?php bloginfo('template_url'); ?>/images/background.gif');
+    background-image: url('<?php bloginfo('template_url'); ?>/images/background.png');
   }
 </style>
 
