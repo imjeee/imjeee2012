@@ -9,6 +9,7 @@ wp-includes/
 
 .ssh/
 .gitconfig
+.bash_history
 .log
 .viminfo
 logs/
