@@ -90,13 +90,14 @@ ul.splitter li.selected {
 }
 
 .work-grid img {
-  width: 285px;
+  width: 283px;
   height: 190px;
 
   z-index: -1;
 
   margin: 0 0 -10px 0;
-  padding: 0;
+
+  border: 1px solid #B1A451;
 
   filter: none;
   -webkit-filter: grayscale(0);
@@ -134,11 +135,9 @@ ul.splitter li.selected {
 }
 
 .img-details h4, .img-details h4 a {
-  font-family: 'PT Sans', Helvetica, sans-serif;
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Trykker', Helvetica, sans-serif;
   font-size: 16px;
-  color: #3FA6F2;
+  color: #B1A451;
   padding: 5px 0 10px 0;
   margin: 0;
 }
