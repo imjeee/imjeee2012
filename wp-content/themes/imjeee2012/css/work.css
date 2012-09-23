@@ -11,6 +11,7 @@ ul.splitter {
   padding: 0;
   display: block;
   clear: both;
+  background-color: #F4F3EF;
 }
 
 .splitter::after {
@@ -31,15 +32,13 @@ ul.splitter li {
 
 ul.splitter li a {
   margin: 0;
-  padding: 0 10px 5px 10px; /* padding top doesnt work... */
+  padding: 5px 10px 5px 10px; /* padding top doesnt work... */
   font-family: "Helvetica Neue", Helvetica, Sans-serif;
   color: black;
   font-size: 13px;
-
   letter-spacing: .1em;
 
   border-bottom: 1px solid #B1A451;  
-  background-color: #F4F3EF;
 }
 
 ul.splitter li a:hover, ul.splitter li.selected a {
