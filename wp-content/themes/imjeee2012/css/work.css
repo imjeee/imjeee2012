@@ -142,16 +142,17 @@ ul.splitter li.selected a {
 }
 
 .img-details h4, .img-details h4 a {
-  font-family: 'Ubuntu', Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  color: #B1A451;
   padding: 5px 0 10px 0;
   margin: 0;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .05em;
 }
 
 .img-details a:hover {
-  color: black;
+  color: #B1A451;
 }
 
 .img-details p {

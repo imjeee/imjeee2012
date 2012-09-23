@@ -21,10 +21,14 @@
 }
 
 #fine-art h1 {
+	margin: 0 0 20px 0;
+
 	font-family: 'Lilita One', cursive;
 	font-size: 60px;
-	color: white;
-	margin: 0 0 20px 0;
+
+  -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; /* #B1A451; */
 
   text-transform: uppercase;
 }
@@ -55,7 +59,7 @@
 }
 
 #first article h1 {
-	text-shadow: .1em .1em #333;
+	text-shadow: .1em .1em rgba(0,0,0,.8);
 }
 
 @media screen and (max-width: 768px){
