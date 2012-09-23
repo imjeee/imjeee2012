@@ -87,7 +87,7 @@ nav a:hover, li.current_page_item a{
 
   max-width: 600px;
 
-  background-color: white;
+  background-image: url('../images/background-contact.png');
 
   opacity: 0;
 
@@ -104,7 +104,6 @@ nav a:hover, li.current_page_item a{
   padding: 20px;
 
   border-bottom: 1px solid #EEE;
-  background-color: white;
 
   -moz-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -112,10 +111,9 @@ nav a:hover, li.current_page_item a{
   -moz-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 25px;
-  font-style: italic;
-  color: gray;
+  color: black;
 }
 
 #contact-box ul {
