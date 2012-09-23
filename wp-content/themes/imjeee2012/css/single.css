@@ -81,16 +81,17 @@
   max-width: 325px;
   margin: 14px 20px 0 0;
   padding: 0;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #B1A451;
 }
 
 #post-details h1 {
   margin: 0;
   padding: 7px 0 0 0;
 
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: 500; 
   font-size: 20px;
   color: #777;
-  letter-spacing: -1.5px;
   line-height: 24px;
 }
 
@@ -104,7 +105,7 @@
 #single .tags {
   margin: 0;
   padding: 0 0 7px 0;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #B1A451;
 }
 
 .tags ul {

@@ -34,7 +34,7 @@
                       if (count($posttags) > 0) { ?>
                 <ul class="social" id="css3">
                   <?php foreach($posttags as $tag){ ?>
-                  <li class="<?php echo $tag->slug ?>"><a href="#" target="_blank"><strong><?php echo $tag->name ?></strong></a></li>
+                  <li class="<?php echo $tag->slug ?>"><strong><?php echo $tag->name ?></strong></li>
                   <?php } ?>
                 </ul>
                 <?php } ?>
