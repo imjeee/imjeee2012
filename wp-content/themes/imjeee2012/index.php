@@ -6,14 +6,14 @@
   <div class="right">
     <section class="rw-wrapper">
       <h2 class="rw-sentence">
-        <span>Hi! My name is Jie Lian,</span>
+        <span>Hi! My name is <a href="http://www.imjeee.com/about-jie/">Jie Lian</a>,</span>
         <br>
         <span>and I'm a&nbsp;</span>
         <div class="rw-words rw-words-1">
-          <span><a href="http://www.imjeee.com/work/">developer</a></span>
-          <span><a href="http://www.imjeee.com/work/">designer</a></span>
-          <span><a href="http://www.imjeee.com/fine-art/">painter</a></span>
-          <span><a href="http://www.imjeee.com/about-jie/">thinker</a></span>
+          <span>developer.</span>
+          <span>designer.</span>
+          <span>painter.</span>
+          <span>thinker.</span>
         </div>
       </h2>
     </section>

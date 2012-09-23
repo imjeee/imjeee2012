@@ -76,11 +76,11 @@ nav a:hover, li.current_page_item a{
 }
 
 #contact-box {
-  margin: 0;
+  margin: -260px 0 0 -280px;
   padding: 0;
 
   position: fixed;
-  left: 35%;
+  left: 50%%;
   top: 120%;
 
   z-index: 500;

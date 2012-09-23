@@ -14,13 +14,13 @@
     <div id="about">
       <div class="section">
         <div id="jie">
-          <p>Jie is a designer & developer in Austin. He likes basketball, <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">Game of Thrones</a>, keyboard on a Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">Sundance movies</a>, and (currently experimenting with) hipster music. Please grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>, and if you like what you see, <a class="contact-btn">get in touch!</a></p>
+          <p>Hi there! My name is Jie Lian. My friends just call me g. I'm a designer & developer currently living in Austin. I like playing basketball, reading <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">"A song of ice and fire book series"</a>, typing on the keyboard of Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">watching Sundance movies</a>, and experimenting with the wonderful Austin music scenes. Feel free to <a class="contact-btn">get in touch</a>, and let's make it official and grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>.</p>
         </div><!-- #jie -->
       </div>
       <div class="section">
         <div class="block">
           <h1>School + work</h1>
-          <p>Things  not on the timeline: <a href="http://en.wikipedia.org/wiki/Xi'an" target="_blank">born in Xi'an</a>, <a href="http://en.wikipedia.org/wiki/Hebei" target="_blank">lived in Hebei</a>, came to the Houston in 2000. Achievements unlocked in life: <a href="http://www.cultureshapers.com/visual-arts/drawing-winners-03.php" target="_blank">Cultural Shaper second place in drawing</a>, Scholastic regional gold keys, National Art Honor's Society, Dean's list at MICA and UT, named bestman at my buddy's wedding, and scored many game winners in pick up basketball.</p>
+          <p>I was born in the historic city of < href="http://en.wikipedia.org/wiki/Xi'an" target="_blank">Xi'an</a>, <a href="http://en.wikipedia.org/wiki/Hebei" target="_blank">grew up in Hebei</a>, and came to U.S. in middle school. I've been fortunate enough to have great parents who put a lot of emphasis on education.: <a href="http://www.cultureshapers.com/visual-arts/drawing-winners-03.php" target="_blank">Cultural Shaper second place in drawing</a>, Scholastic regional gold keys, National Art Honor's Society, Dean's list at MICA and UT, named bestman at my buddy's wedding, and scored many game winners in pick up basketball.</p>
         </div>
         <!-- BEGIN Timeline Code -->
         <div class="timeline">

@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   $('.contact-btn').click(function() {
     $('#contact-box').fadeTo("normal", 1);
-    $('#contact-box').css("top", "20%");
+    $('#contact-box').css("top", "50%");
     $('#cover').fadeTo("normal", .7);
   });
 
