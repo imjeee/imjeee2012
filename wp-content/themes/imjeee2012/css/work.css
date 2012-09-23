@@ -35,7 +35,8 @@ ul.splitter li a {
   font-family: "Helvetica Neue", Helvetica, Sans-serif;
   color: black;
   font-size: 13px;
-  font-weight: bold;
+
+  letter-spacing: .1em;
 
   border-bottom: 1px solid #B1A451;  
   background-color: ##F4F3EF;

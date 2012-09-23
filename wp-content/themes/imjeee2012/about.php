@@ -4,6 +4,15 @@
    */
    ?>
 
+<style type="text/css">
+  body {
+    background-image: url('<?php bloginfo('template_url'); ?>/images/background-about.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+</style>
+
+
 <?php get_header(); ?>
 
 <body <?php body_class(); ?>>
