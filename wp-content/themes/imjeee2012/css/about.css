@@ -24,8 +24,7 @@
   margin: 0;
   padding: 20px 10px 10px 20px;
 
-  border-bottom: 1px solid #B1A451;  
-  
+  border: 1px solid #DDD;  
   background-color: white;
 
   -moz-border-top-left-radius: 5px;
@@ -61,16 +60,16 @@
 }
 
 #jie p {
-  margin: 100px 0 200px 0;
-  padding: 30px 10% 30px 10%; 
+  margin: 0;
+  padding: 0;
 
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
 
-  font-family: 'Goudy Bookletter 1911', serif;
-  font-size: 23px;
-  line-height: 40px;
-  text-align: center;
+  font-family: 'Ubuntu', serif;
+  font-size: 21px;
+  line-height: 30px;
 }
 
 .timeline {
@@ -92,7 +91,7 @@ ul.events li {
   padding: 0;
   position: relative;
 
-  border: 1px solid #B1A451;
+  border-bottom: 1px solid #B1A451;
   background-color: white;
   
   -webkit-border-radius: 2px;
@@ -135,7 +134,7 @@ ul.intervals {
   padding: 5px 0 5px 0;
 
   background-color: white;
-  border: 1px solid #B1A451;
+  border-top: 1px solid #B1A451;
 
   color: gray;
   float: left;
@@ -160,7 +159,7 @@ ul.intervals {
   padding: 15px 0 15px 0;
 
   background-color: white;
-  border: 1px solid #B1A451;
+  border-top: 1px solid #B1A451;
 
   left: 0%;
 
@@ -180,7 +179,8 @@ ul.intervals {
   margin: 0 0 5px 0;
   padding: 5px 0 5px 7px;
 
-  border: 1px solid #B1A451;
+  border-width: 0;
+  background-color: rgba(0,0,0,0);
 
   font-size: 13px;
   font-weight: bold;

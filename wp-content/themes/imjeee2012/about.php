@@ -14,7 +14,7 @@
     <div id="about">
       <div class="section">
         <div id="jie">
-          <p>Hi there! My name is Jie Lian. My friends just call me g. I'm a designer & developer currently living in Austin. I like playing basketball, reading <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">"A song of ice and fire book series"</a>, typing on the keyboard of Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">watching Sundance movies</a>, and experimenting with the wonderful Austin music scenes. Feel free to <a class="contact-btn">get in touch</a>, and let's make it official and grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>.</p>
+          <p>Hi there! My name is Jie Lian. My friends just call me g. like playing basketball, reading <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">"A song of ice and fire book series"</a>, typing on the keyboard of Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">watching Sundance movies</a>, and experimenting with the wonderful Austin music scenes. Feel free to <a class="contact-btn">get in touch</a>, and make it official by grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>.</p>
         </div><!-- #jie -->
       </div>
       <div class="section">
@@ -71,7 +71,7 @@
             <li class="last">with google, I can get it done</li>
           </ul> <!-- end .intervals -->          
           <ul class="events" style="margin: 40px 0 5px 0;">
-            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Programming Languages</li>
+            <li style="margin: 40px 0 5px 0; color: black; ">Programming Languages</li>
             <li style="width: 72%; background-color: #e52836;">Java</li>
             <li style="width: 65%; background-color: #375e8c;">Python</li>
             <li style="width: 85%; background-color: #f9d21e;">CSS</li>
@@ -81,14 +81,14 @@
             <li style="width: 50%; background-color: #3F1919;">Actionscript</li>
             <li style="width: 95%; background-color: #dc4d2f;">HTML</li>
 
-            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Technology</li>
+            <li style="margin: 40px 0 5px 0; color: black; ">Technology</li>
             <li style="width: 70%; background-color: #a5cd3c;">Android</li>
             <li style="width: 56%; background-color: #8aa276;">Play Framework</li>
             <li style="width: 52%; background-color: #4698bc;">Zend Framework</li>
             <li style="width: 66%; background-color: #4b81ad;">jQuery</li>
             <li style="width: 86%; background-color: #CCC;">960gs</li>
 
-            <li style="background-color: #EEE; margin: 40px 0 5px 0; color: black; ">Applications</li>
+            <li style="margin: 40px 0 5px 0; color: black; ">Applications</li>
             <li style="width: 70%; background-color: #3d3177;">Eclipse</li>
             <li style="width: 95%; background-color: #e99324;">Adobe Illustrator</li>
             <li style="width: 91%; background-color: #355aac;">Adobe Photoshop</li>

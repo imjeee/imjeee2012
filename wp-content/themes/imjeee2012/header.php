@@ -47,8 +47,5 @@
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'><!-- home page -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'><!-- about jie paragraph font -->
   <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- big bold goofy text on fine art first page -->
-
-  <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'><!-- about me intro font -->
-  <link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'><!-- work title font -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'><!-- nav font -->
 </head>
