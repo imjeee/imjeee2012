@@ -4,7 +4,7 @@
 		  <h3>design + development</h3></a>
   </div>
 	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ));  ?>
-  <ul><li><a class="contact-btn">Contact</a></li></ul>
+  <ul><li><a class="contact-btn">contact</a></li></ul>
 
   <div id="contact-box">
     <h1>Get in touch with Jie</h1>

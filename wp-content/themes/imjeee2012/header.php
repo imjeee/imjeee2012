@@ -44,7 +44,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/about.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/single.css" />
 
-
+  <link href='http://fonts.googleapis.com/css?family=Dosis:400,700,800' rel='stylesheet' type='text/css'><!-- home page -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'><!-- about jie paragraph font -->
   <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'><!-- big bold goofy text on fine art first page -->
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700italic' rel='stylesheet' type='text/css'><!-- serious work grid each element's title font -->

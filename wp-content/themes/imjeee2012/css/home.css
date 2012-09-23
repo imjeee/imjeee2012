@@ -3,13 +3,13 @@
 	position: relative;
   top: 30%;
 	margin: 0;
-	font-family: 'Helvetica Neue', Helvetica, Sans-serif
+	font-family: 'Dosis', Helvetica, Sans-serif
 	padding: 10px;
 }
 .rw-sentence{
 	margin: 0;
 	text-align: left;
-	text-shadow: 2px 2px 2px rgba(30,30,30,0.2);
+	text-shadow: .1em .1em rgba(0, 0, 0, .1);
 }
 .rw-sentence span{
 	font-size: 300%;
