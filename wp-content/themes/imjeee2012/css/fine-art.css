@@ -25,10 +25,7 @@
 
 	font-family: 'Lilita One', cursive;
 	font-size: 60px;
-
-  -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black; /* #B1A451; */
+  color: #EEE;
 
   text-transform: uppercase;
 }
