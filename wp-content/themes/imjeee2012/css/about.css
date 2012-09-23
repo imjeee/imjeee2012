@@ -9,6 +9,7 @@
   width: 25%;
   float: left;
 
+  border: 1px solid #B1A451;  
   background-color: white;
 
   -moz-box-shadow:    0 0 10px 3px grey;
@@ -23,7 +24,8 @@
   margin: 0;
   padding: 20px 10px 10px 20px;
 
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #B1A451;  
+  
   background-color: white;
 
   -moz-border-top-left-radius: 5px;
@@ -89,7 +91,8 @@ ul.events li {
   margin: 10px;
   padding: 0;
   position: relative;
-  
+
+  border: 1px solid #B1A451;
   background-color: white;
   
   -webkit-border-radius: 2px;
@@ -132,6 +135,7 @@ ul.intervals {
   padding: 5px 0 5px 0;
 
   background-color: white;
+  border: 1px solid #B1A451;
 
   color: gray;
   float: left;
@@ -156,6 +160,7 @@ ul.intervals {
   padding: 15px 0 15px 0;
 
   background-color: white;
+  border: 1px solid #B1A451;
 
   left: 0%;
 
@@ -175,8 +180,8 @@ ul.intervals {
   margin: 0 0 5px 0;
   padding: 5px 0 5px 7px;
 
-  border-width: 0;
-  
+  border: 1px solid #B1A451;
+
   font-size: 13px;
   font-weight: bold;
   color: white;

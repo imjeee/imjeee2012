@@ -26,6 +26,7 @@ ul.splitter li {
   margin: 0 1px 0 0;
   display: inline-block;
   float: left;
+
   -moz-box-shadow:    0 0 5px 3px grey;
   -webkit-box-shadow: 0 0 5px 3px #111;
   box-shadow:         1px 1px 5px -2px #DDD;
@@ -33,6 +34,7 @@ ul.splitter li {
 
 
 ul.splitter li:first-child a {
+  border: 1px solid #B1A451;  
   -moz-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   -moz-border-bottom-left-radius: 3px;
@@ -40,6 +42,7 @@ ul.splitter li:first-child a {
 }
 
 ul.splitter li:last-child a {
+  border: 1px solid #B1A451;  
   -moz-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
   -moz-border-bottom-right-radius: 3px;
@@ -53,15 +56,19 @@ ul.splitter li a {
   color: gray;
   font-size: 13px;
   font-weight: bold;
+
+  border: 1px solid #B1A451;  
+
   background-color: white;
 }
 
 ul.splitter li a:hover, ul.splitter li.selected a {
-  color: black;
+  color: #B1A451;
 }
 
-ul.splitter li.selected {
-  border-bottom: solid 2px black;
+ul.splitter li.selected a {
+  color: white;
+  background-color: #B1A451;
 }
 
 /* serious-work */
@@ -135,7 +142,8 @@ ul.splitter li.selected {
 }
 
 .img-details h4, .img-details h4 a {
-  font-family: 'Trykker', Helvetica, sans-serif;
+  font-family: 'Ubuntu', Helvetica, sans-serif;
+  font-weight: bold;
   font-size: 16px;
   color: #B1A451;
   padding: 5px 0 10px 0;
