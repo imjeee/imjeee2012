@@ -20,7 +20,10 @@
           <span>developer.</span>
           <span>designer.</span>
           <span>painter.</span>
-          <span>thinker.</span>
+          <span>picker.</span>
+          <span>grinner.</span>
+          <span>lover.</span>
+          <span>sinner.</span>
         </div>
       </h2>
     </section>
