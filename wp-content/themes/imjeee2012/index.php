@@ -17,13 +17,12 @@
         <br>
         <span>and I'm a&nbsp;</span>
         <div class="rw-words rw-words-1">
-          <span>developer.</span>
-          <span>designer.</span>
-          <span>painter.</span>
-          <span>picker.</span>
-          <span>grinner.</span>
-          <span>lover.</span>
-          <span>sinner.</span>
+          <span>developer.&nbsp;</span>
+          <span>designer.&nbsp;</span>
+          <span>picker.&nbsp;</span>
+          <span>grinner.&nbsp;</span>
+          <span>lover.&nbsp;</span>
+          <span>sinner.&nbsp;</span>
         </div>
       </h2>
     </section>
