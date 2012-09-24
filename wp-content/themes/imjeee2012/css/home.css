@@ -1,8 +1,8 @@
 .rw-wrapper{
-	width: 80%;
+	width: 90%;
 	position: relative;
-  top: 30%;
-	margin: 0;
+  top: 29%;
+	margin: 0 0 0 20px;
 	font-family: 'Ubuntu', Helvetica, Sans-serif;
 	padding: 10px;
 }
