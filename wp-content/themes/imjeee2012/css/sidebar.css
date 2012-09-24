@@ -27,9 +27,9 @@ nav a:hover, li.current_page_item a{
 
 #logo h1, #logo h1 a{
   margin: 0;
-  padding: 2px 10px 5px 10px;
+  padding: 2px 5px 5px 5px;
 
-  font-size: 35px;
+  font-size: 33px;
   color: white;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
@@ -47,11 +47,10 @@ nav a:hover, li.current_page_item a{
 
 #logo h3 {
   margin: 0;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
 
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.8);
-  letter-spacing: 1px;
 }
 
 #logo h3:hover {
