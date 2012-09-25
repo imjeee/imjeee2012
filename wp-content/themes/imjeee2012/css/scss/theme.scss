@@ -1,10 +1,11 @@
 /* body, main */
 
+$blue: #607890;
 $brown: #B1A451;
 
 $text-color: #333;
-$link: $brown;
-$hover: black;
+$link: $blue;
+$hover: $brown;
 $visited: $brown - 100;
 
 html {
