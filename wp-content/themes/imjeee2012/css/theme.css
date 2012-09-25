@@ -13,6 +13,8 @@ html {
     /* contact page */
     /* contact page */
     /* SOCIAL ICONS - CSS3 */ }
+    html body ul li {
+      list-style: none; }
     html body .left {
       width: 137px;
       position: fixed;
@@ -37,8 +39,6 @@ html {
         color: #b1a451; }
       html body a:active, html body a:visited, html body a:link:active, html body a:link:visited {
         color: #4d4000; }
-    html body ul li {
-      list-style: none; }
     html body .social {
       list-style: none;
       margin: 15px 0 10px -10px;

@@ -20,6 +20,8 @@ html {
     font-family: Helvetica, Sans-serif;
     color: $text-color;
 
+    ul li { list-style: none; }
+
     .left {
       width: 137px;
       position:fixed;
@@ -48,8 +50,6 @@ html {
       &:hover { color: $hover; }
       &:active, &:visited { color: $visited; }
     }
-
-    ul li { list-style: none; }
 
     /* SOCIAL ICONS - GENERAL */
     .social { list-style:none; margin: 15px 0 10px -10px; overflow: hidden; width: 100%}
