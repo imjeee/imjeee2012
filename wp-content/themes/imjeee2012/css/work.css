@@ -87,7 +87,7 @@ ul.splitter li.selected a {
 
   z-index: -1;
 
-  margin: 0;
+  margin: 0 0 -1px 0;
 
   border: 1px solid #B1A451;
 

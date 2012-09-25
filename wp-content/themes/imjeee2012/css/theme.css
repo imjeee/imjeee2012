@@ -1,123 +1,147 @@
 /* body, main */
-
 html {
   padding: 0;
   margin: 0;
-
-  overflow-y: scroll;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-
   width: 100%;
   height: 100%;
-
-  background-color: #F4F3EF;
-
-  font-family: Helvetica, Sans-serif;
-  color: #333;
-}
-
-.left {
-  width: 137px;
-  height: 100%;
-
-  position:fixed;
-  top: 50%;
-
-  margin: -110px 0 0 0;
-  padding: 0 0 0 20px;
-  z-index: 100;
-}
-
-.right {
-  margin: 0;
-  padding: 0;
-
-  width:84%;
-  height: 100%;
-
-  position: absolute;
-  left: 16%;
-
-  z-index: 0;
-}
-
-a, a:link {
-  color: #555;
-  text-decoration:none;
-  -webkit-transition: color .3s linear;
-  -moz-transition: color .3s linear;
-  -o-transition: color .3s linear;
-  -ms-transition: color .3s linear;
-  transition: color .3s linear;
-}
-
-a:hover {
-  color: black;
-}
-
-a:active, a:visited {
-  color: #607890;
-}
-
-ul li {
- list-style: none;
-}
-
-/* SOCIAL ICONS - GENERAL */
-.social { list-style:none; margin: 15px 0 10px -10px; overflow: hidden; width: 100%}
-.social li { display:inline; float:left; background-repeat:no-repeat; background-size: 100% 100%; margin: 0 5px 5px 0; }
-.social li  { display:block; width: 30px; height: 30px; position:relative; text-decoration:none; }
-.social li strong { font-size: 15px; font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding: 5px 10px 5px 10px; z-index:9999;
- text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
- -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-/* contact page */
-li.linkedin { background-image:url("../images/helper/contact-linkedin.png"); }
-li.deviantart { background-image:url("../images/helper/contact-deviantart.png"); }
-li.tumblr { background-image:url("../images/helper/contact-tumblr.png"); }
-li.twitter { background-image:url("../images/helper/contact-twitter.png"); }
-
-
-/* contact page */
-li.s960gs { background-image:url("../images/helper/tag-960gs.png"); }
-li.actionscript { background-image:url("../images/helper/tag-Actionscript.png"); }
-li.android { background-image:url("../images/helper/tag-Android.png"); }
-li.cpp { background-image:url("../images/helper/tag-C++.png"); }
-li.css { background-image:url("../images/helper/tag-CSS.png"); }
-li.eclipse { background-image:url("../images/helper/tag-Eclipse.png"); }
-li.emacs { background-image:url("../images/helper/tag-EMACS.png"); }
-li.flash { background-image:url("../images/helper/tag-Flash.png"); }
-li.html { background-image:url("../images/helper/tag-HTML.png"); }
-li.illustrator { background-image:url("../images/helper/tag-Illustrator.png"); }
-li.ios { background-image:url("../images/helper/tag-iOS.png"); }
-li.java { background-image:url("../images/helper/tag-Java.png"); }
-li.javascript { background-image:url("../images/helper/tag-Javascript.png"); }
-li.jquery { background-image:url("../images/helper/tag-jQuery.png"); }
-li.jqueryui { background-image:url("../images/helper/tag-jQueryUI.png"); }
-li.linux { background-image:url("../images/helper/tag-Linux.png"); }
-li.mac { background-image:url("../images/helper/tag-Mac.png"); }
-li.pc { background-image:url("../images/helper/tag-PC.png"); }
-li.photoshop { background-image:url("../images/helper/tag-Photoshop.png"); }
-li.php { background-image:url("../images/helper/tag-PHP.png"); }
-li.play { background-image:url("../images/helper/tag-Play.png"); }
-li.python { background-image:url("../images/helper/tag-Python.png"); }
-li.wordpress { background-image:url("../images/helper/tag-Wordpress.png"); }
-
-
-
-/* SOCIAL ICONS - CSS3 */
-#css3:hover li { opacity:0.2; }
-
-#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
- -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
-#css3 li strong { opacity:0;
- -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
- -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
-
-#css3 li:hover { opacity:1; }
-#css3 li:hover strong { opacity:1; top:-15px; }
+  overflow-y: scroll; }
+  html body {
+    background-color: #F4F3EF;
+    font-family: Helvetica, Sans-serif;
+    color: #333;
+    /* SOCIAL ICONS - GENERAL */
+    /* contact page */
+    /* contact page */
+    /* SOCIAL ICONS - CSS3 */ }
+    html body .left {
+      width: 137px;
+      position: fixed;
+      top: 50%;
+      margin: -110px 0 0 0;
+      padding: 0 0 0 20px;
+      z-index: 100; }
+    html body .right {
+      width: 84%;
+      position: absolute;
+      left: 16%;
+      z-index: 0; }
+    html body a, html body a:link {
+      color: #b1a451;
+      text-decoration: none;
+      -webkit-transition: color .3s linear;
+      -moz-transition: color .3s linear;
+      -o-transition: color .3s linear;
+      -ms-transition: color .3s linear;
+      transition: color .3s linear; }
+      html body a:hover, html body a:link:hover {
+        color: black; }
+      html body a:active, html body a:visited, html body a:link:active, html body a:link:visited {
+        color: #4d4000; }
+    html body ul li {
+      list-style: none; }
+    html body .social {
+      list-style: none;
+      margin: 15px 0 10px -10px;
+      overflow: hidden;
+      width: 100%; }
+    html body .social li {
+      display: inline;
+      float: left;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: 0 5px 5px 0; }
+    html body .social li {
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: relative;
+      text-decoration: none; }
+    html body .social li strong {
+      font-size: 15px;
+      font-weight: normal;
+      position: absolute;
+      left: 20px;
+      top: -1px;
+      color: #fff;
+      padding: 5px 10px 5px 10px;
+      z-index: 9999;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+      background-color: rgba(0, 0, 0, 0.7);
+      -moz-border-radius: 3px;
+      -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      -webkit-border-radius: 3px;
+      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    html body li.linkedin {
+      background-image: url("../images/helper/contact-linkedin.png"); }
+    html body li.deviantart {
+      background-image: url("../images/helper/contact-deviantart.png"); }
+    html body li.tumblr {
+      background-image: url("../images/helper/contact-tumblr.png"); }
+    html body li.twitter {
+      background-image: url("../images/helper/contact-twitter.png"); }
+    html body li.s960gs {
+      background-image: url("../images/helper/tag-960gs.png"); }
+    html body li.actionscript {
+      background-image: url("../images/helper/tag-Actionscript.png"); }
+    html body li.android {
+      background-image: url("../images/helper/tag-Android.png"); }
+    html body li.cpp {
+      background-image: url("../images/helper/tag-C++.png"); }
+    html body li.css {
+      background-image: url("../images/helper/tag-CSS.png"); }
+    html body li.eclipse {
+      background-image: url("../images/helper/tag-Eclipse.png"); }
+    html body li.emacs {
+      background-image: url("../images/helper/tag-EMACS.png"); }
+    html body li.flash {
+      background-image: url("../images/helper/tag-Flash.png"); }
+    html body li.html {
+      background-image: url("../images/helper/tag-HTML.png"); }
+    html body li.illustrator {
+      background-image: url("../images/helper/tag-Illustrator.png"); }
+    html body li.ios {
+      background-image: url("../images/helper/tag-iOS.png"); }
+    html body li.java {
+      background-image: url("../images/helper/tag-Java.png"); }
+    html body li.javascript {
+      background-image: url("../images/helper/tag-Javascript.png"); }
+    html body li.jquery {
+      background-image: url("../images/helper/tag-jQuery.png"); }
+    html body li.jqueryui {
+      background-image: url("../images/helper/tag-jQueryUI.png"); }
+    html body li.linux {
+      background-image: url("../images/helper/tag-Linux.png"); }
+    html body li.mac {
+      background-image: url("../images/helper/tag-Mac.png"); }
+    html body li.pc {
+      background-image: url("../images/helper/tag-PC.png"); }
+    html body li.photoshop {
+      background-image: url("../images/helper/tag-Photoshop.png"); }
+    html body li.php {
+      background-image: url("../images/helper/tag-PHP.png"); }
+    html body li.play {
+      background-image: url("../images/helper/tag-Play.png"); }
+    html body li.python {
+      background-image: url("../images/helper/tag-Python.png"); }
+    html body li.wordpress {
+      background-image: url("../images/helper/tag-Wordpress.png"); }
+    html body #css3:hover li {
+      opacity: 0.2; }
+    html body #css3 li {
+      -webkit-transition-property: opacity;
+      -webkit-transition-duration: 500ms;
+      -moz-transition-property: opacity;
+      -moz-transition-duration: 500ms; }
+    html body #css3 li strong {
+      opacity: 0;
+      -webkit-transition-property: opacity, top;
+      -webkit-transition-duration: 300ms;
+      -moz-transition-property: opacity, top;
+      -moz-transition-duration: 300ms; }
+    html body #css3 li:hover {
+      opacity: 1; }
+    html body #css3 li:hover strong {
+      opacity: 1;
+      top: -15px; }
