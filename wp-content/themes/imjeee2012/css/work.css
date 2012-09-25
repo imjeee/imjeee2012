@@ -91,8 +91,8 @@ ul.splitter li.selected a {
 
   border: 1px solid #B1A451;
 
-  opacity: .7;
-  filter:alpha(opacity=70); /* For IE8 and earlier */
+  opacity: .9;
+  filter:alpha(opacity=90); /* For IE8 and earlier */
 
   -webkit-transition: All .3s linear;
   -moz-transition: All .3s linear;
