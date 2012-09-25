@@ -87,12 +87,12 @@ ul.splitter li.selected a {
 
   z-index: -1;
 
-  margin: 0 0 -10px 0;
+  margin: 0;
 
   border: 1px solid #B1A451;
 
-  filter: none;
-  -webkit-filter: grayscale(0);
+  opacity: .5;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
 
   -webkit-transition: All .3s linear;
   -moz-transition: All .3s linear;
@@ -107,9 +107,8 @@ ul.splitter li.selected a {
 }
 
 .work-grid img:hover {
-  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+  opacity: 1;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .img-details {
