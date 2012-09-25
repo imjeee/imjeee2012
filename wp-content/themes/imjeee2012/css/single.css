@@ -1,128 +1,91 @@
-#single {
-  margin: 63px 0 50px 0;
-  padding: 0;
-}
-
 .post-img {
   width: 74%;
   max-width: 2000px;
   margin: 0 30px 50px 0;
   background-repeat: no-repeat;
-   
-  -moz-box-shadow:    0 0 10px 3px grey;
+  -moz-box-shadow: 0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
-}
+  box-shadow: 1px 1px 10px -3px #bbbbbb; }
 
 .post-img-none {
   width: 74%;
   max-width: 2000px;
-  margin: 0 30px 50px 0;
-}
+  margin: 0 30px 50px 0; }
 
 .post-img-web {
   -moz-border-radius: 5px;
   border-radius: 5px;
-
   padding: 23px 0 0 0;
-  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/web-bg.png");
-}
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/web-bg.png"); }
 
 .post-img-photoshop {
   -moz-border-radius-topright: 2px;
   border-top-right-radius: 2px;
-
   -moz-border-radius-topleft: 2px;
   border-top-left-radius: 2px;
-
   -moz-border-radius-bottomright: 5px;
   border-bottom-right-radius: 5px;
-
   -moz-border-radius-bottomleft: 5px;
   border-bottom-left-radius: 5px;
-
   padding: 34px 0 0 0;
-  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/photoshop-bg.png");
-}
-
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/photoshop-bg.png"); }
 
 .post-img-preview {
   -moz-border-radius: 5px;
   border-radius: 5px;
-
   padding: 55px 0 0 0;
-  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/preview-bg.png");
-}
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/preview-bg.png"); }
 
 .post-img-illustrator {
   -moz-border-radius-topright: 2px;
   border-top-right-radius: 2px;
-
   -moz-border-radius-topleft: 2px;
   border-top-left-radius: 2px;
-
   -moz-border-radius-bottomright: 5px;
   border-bottom-right-radius: 5px;
-
   -moz-border-radius-bottomleft: 5px;
   border-bottom-left-radius: 5px;
-
   padding: 35px 0 0 0;
-  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/illustrator-bg.png");
-}
+  background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/illustrator-bg.png"); }
 
+#single {
+  margin: 63px 0 50px 0;
+  padding: 0; }
 
 #post-details {
   position: fixed;
   top: 50px;
   left: 80%;
-
   min-width: 100px;
   max-width: 325px;
   margin: 14px 20px 0 0;
   padding: 0;
-  border-top: 1px solid #B1A451;
-}
-
-#post-details h1 {
-  margin: 0;
-  padding: 7px 0 0 0;
-
-  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  font-weight: 500; 
-  font-size: 20px;
-  color: #777;
-  line-height: 24px;
-}
-
-#post-details p.cat {
-  margin: 0 0 10px 0;
-  padding: 2px 0 0 1px;
-  font-size: 12px;
-  color: #AAA;
-}
-
-#single .tags {
-  margin: 0;
-  padding: 0 0 7px 0;
-  border-bottom: 1px solid #B1A451;
-}
-
-.tags ul {
-  margin: 0;
-  padding: 20px 40px 0 0;
-}
-
-.tags ul li {
-  margin: 5px 5px 0 0;
-}
-
-.project-description p {
-  margin: 60px 0 0 0;
-  padding: 0;
-
-  font-size: 14px;
-  color: #999;
-  line-height: 20px;
-}
-
+  border-top: 1px solid #B1A451; }
+  #post-details h1 {
+    margin: 0;
+    padding: 7px 0 0 0;
+    font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #777;
+    line-height: 24px; }
+  #post-details p.cat {
+    margin: 0 0 10px 0;
+    padding: 2px 0 0 1px;
+    font-size: 12px;
+    color: #AAA; }
+  #post-details .tags {
+    margin: 0;
+    padding: 0 0 7px 0;
+    border-bottom: 1px solid #B1A451; }
+    #post-details .tags ul {
+      margin: 0;
+      padding: 20px 40px 0 0; }
+      #post-details .tags ul li {
+        margin: 5px 5px 0 0; }
+  #post-details .project-description p {
+    margin: 60px 0 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: #999;
+    line-height: 20px; }

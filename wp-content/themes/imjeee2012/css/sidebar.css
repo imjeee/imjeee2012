@@ -1,65 +1,44 @@
 /* navigation */
-
 nav ul {
   margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin: 0;
-  padding: 0;
-
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  list-style-type: none;
-  line-height: 25px;
-}
-
-nav a:hover, li.current_page_item a{
-  color: black;
-}
+  padding: 0; }
+  nav ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 25px; }
+  nav ul a:hover, nav ul li.current_page_item a {
+    color: black; }
 
 #logo {
-  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  font-weight: bold;
-  margin: 0 0 50px 0;
-}
-
-#logo h1, #logo h1 a{
-  margin: 0;
-  padding: 2px 5px 5px 5px;
-
-  font-size: 33px;
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
-  text-align: center;
-
-  -webkit-transition: All .3s linear;
-  -moz-transition: All .3s linear;
-  -o-transition: All .3s linear;
-  -ms-transition: All .3s linear;
-  transition: All .3s linear;
-}
-
-#logo a:hover h1{
-  background: rgba(0, 0, 0, 1);
-}
-
-#logo h3 {
-  margin: 0;
-  padding: 5px 0 0 0;
-
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.8);
-}
-
-#logo h3:hover {
-  color: rgba(0, 0, 0, 1);
-}
+  margin: 0 0 50px 0; }
+  #logo a {
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-weight: bold; }
+    #logo a h1 {
+      margin: 0;
+      padding: 2px 5px 5px 5px;
+      font-size: 33px;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      -webkit-transition: All .3s linear;
+      -moz-transition: All .3s linear;
+      -o-transition: All .3s linear;
+      -ms-transition: All .3s linear;
+      transition: All .3s linear; }
+      #logo a h1:hover {
+        background: black; }
+    #logo a h3 {
+      margin: 0;
+      padding: 5px 0 0 0;
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.8); }
+      #logo a h3:hover {
+        color: black; }
 
 .contact-btn {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 #cover {
   position: fixed;
@@ -71,154 +50,104 @@ nav a:hover, li.current_page_item a{
   display: none;
   background-color: #000000;
   opacity: .7;
-  filter:progid:DXImageTransform.Microsoft.BasicImage(opacity=.7);
-}
+  filter: progid:DXImageTransform.Microsoft.BasicImage(opacity=.7); }
 
 #contact-box {
   margin: -260px 0 0 -280px;
   padding: 0;
-
   position: fixed;
   left: 50%;
   top: 300%;
-
   z-index: 500;
-
-  max-width: 600px;
-  
+  max-width: 500px;
   background-color: white;
   opacity: 0;
-
-  -moz-box-shadow:    0 0 10px 3px grey;
+  -moz-box-shadow: 0 0 10px 3px grey;
   -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
-
+  box-shadow: 1px 1px 10px -3px #bbbbbb;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-#contact-box h1 {
-  margin: 0;
-  padding: 20px;
-
-  border-bottom: 1px solid #DDD;
-
-  -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-
-  -moz-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
-
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 25px;
-  color: gray;
-}
-
-#contact-box ul {
-  margin: 0;
-  padding: 0 0 10px 30px;
-}
-
-#contact-box li {
-  margin: 15px 5px 5px 0;
-}
-
-/* contact form */
-
-#contact-form .auto-hint {
-  font-family: Helvetica, Sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #A1A1A1;
-}
-
-#contact-form {
-  margin: 0;
-  padding: 30px;
-
-  border-top: 1px solid #DDD; 
-}
-
-#contact-form input, textarea {
-  width: 95%;
-
-  margin: 0 0 15px 0;
-  padding: 7px;
-
-  font-family: Helvetica, Sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #A1A1A1;
-
-  border: 1px solid #B1A451;
-}
-
-#contact-form button {
-  margin: 0;
-  padding: 0;
-
-  border-width: 0;
-}
-
-#contact-form .ajax {
-  float: right;
-  position: relative;
-  top: -37px;
-  right: 2%;
-
-  font-weight: bold;
-  font-size: 14px;
-  color: #AAA;
-  
-  opacity: 0;
-}
-
-
-#submit {
-  width:165px;
-  height:33px;
-
-  display:block;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size:15px;
-  font-weight:bold;
-  color:#fff;
-  text-decoration:none;
-  text-align:center;
-  text-shadow:1px 1px 0px #07526e;
-  padding-top:14px;
-  margin-left:auto;
-  margin-right:auto;
-
-  position:relative;
-  left: 0;
-
-  cursor:pointer;
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-
-  background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-  background-image: -o-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-  background-image: -ms-linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
-
-  -webkit-border-radius: 3px;
-  -webkit-border-radius: 3px;
-
-  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
-  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
-  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
-  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
-}
-
-#submit:active {
-  top:3px;
-  -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
-  -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
-  -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
-  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
-}
+  border-radius: 3px; }
+  #contact-box h1 {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #DDD;
+    -moz-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: gray; }
+  #contact-box ul {
+    margin: 0;
+    padding: 0 0 10px 30px; }
+    #contact-box ul li {
+      margin: 15px 5px 5px 0; }
+  #contact-box #contact-form {
+    margin: 0;
+    padding: 30px;
+    border-top: 1px solid #DDD; }
+    #contact-box #contact-form .auto-hint {
+      font-family: Helvetica, Sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #A1A1A1; }
+    #contact-box #contact-form input, #contact-box #contact-form textarea {
+      width: 96%;
+      margin: 0 0 15px 0;
+      padding: 7px;
+      font-family: Helvetica, Sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #A1A1A1;
+      border: 1px solid #B1A451; }
+    #contact-box #contact-form button {
+      margin: 0;
+      padding: 0;
+      border-width: 0; }
+    #contact-box #contact-form .ajax {
+      float: right;
+      position: relative;
+      top: -37px;
+      right: 2%;
+      font-weight: bold;
+      font-size: 14px;
+      color: #AAA;
+      opacity: 0; }
+    #contact-box #contact-form #submit {
+      margin: 0;
+      padding: 0;
+      width: 165px;
+      height: 33px;
+      display: block;
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      text-shadow: 1px 1px 0px #07526e;
+      position: relative;
+      left: 0;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      background-image: linear-gradient(bottom, #0e89b6 0%, #16b3ec 100%);
+      background-image: -o-linear-gradient(bottom, #0e89b6 0%, #16b3ec 100%);
+      background-image: -moz-linear-gradient(bottom, #0e89b6 0%, #16b3ec 100%);
+      background-image: -webkit-linear-gradient(bottom, #0e89b6 0%, #16b3ec 100%);
+      background-image: -ms-linear-gradient(bottom, #0e89b6 0%, #16b3ec 100%);
+      -webkit-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999999;
+      -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999999;
+      -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999999;
+      box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999999; }
+      #contact-box #contact-form #submit:active {
+        top: 3px;
+        -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999999;
+        -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999999;
+        -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999999;
+        box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999999; }
