@@ -46,12 +46,38 @@
       }
     } /* block */
 
+    ul.intervals {
+      margin: 0;
+      padding: 0 0 30px 0;
+
+      list-style-type: none;
+      display: block;
+    }
+
     .timeline {
       margin: 0;
       padding: 0;
 
       float: left;
       width: 70%;
+
+      ul.intervals li {
+        margin: 0 1px 0 0;
+        padding: 5px 0 5px 0;
+
+        background-color: white;
+        border-top: 1px solid #B1A451;
+
+        color: gray;
+        float: left;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        width: 9.6%;
+
+        @include box-shadow(1px, 1px, 10px, -3px, #BBB);
+      }
+
 
       ul.events {
         list-style-type: none;
@@ -63,7 +89,7 @@
           margin: 10px;
           padding: 0;
           position: relative;
-
+          float: left;
           border-bottom: 1px solid #B1A451;
           background-color: white;
 
@@ -124,8 +150,8 @@
       font-size: 13px;
       font-weight: bold;
       color: white;
-    }
-  }
+    } /* ul.events li */
+  } /* .skills-chart */
 }
 
 #jie {
@@ -142,35 +168,3 @@
     line-height: 30px;
   }
 }
-
-ul.timeline-events li {
-  margin: 0;
-  float: left;
-}
-
-ul.intervals {
-  margin: 0;
-  padding: 0 0 30px 0;
-
-  list-style-type: none;
-  display: block;
-}
-
-/* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
-.timeline ul.intervals li {
-  margin: 0 1px 0 0;
-  padding: 5px 0 5px 0;
-
-  background-color: white;
-  border-top: 1px solid #B1A451;
-
-  color: gray;
-  float: left;
-  font-size: 13px;
-  font-weight: bold;
-  text-align: center;
-  width: 9.6%;
-
-  @include box-shadow(1px, 1px, 10px, -3px, #BBB);
-}
-

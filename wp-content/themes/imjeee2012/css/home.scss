@@ -13,35 +13,33 @@
   	text-align: left;
   	text-shadow: .1em .1em rgba(0, 0, 0, .1);
 
-     span{
+    span{
     	font-size: 300%;
     	font-weight: 800;
       letter-spacing: -.05em;
     }
 
-    .rw-words{
-    	display: inline;
-    }
-    .rw-words-1 span {
-    	position: absolute;
-    	opacity: 0;
-    	overflow: hidden;
-    	color: #317BBA;
-    	-webkit-animation: rotateWord 12s linear infinite 0s;
-    	-moz-animation: rotateWord 12s linear infinite 0s;
-    	-o-animation: rotateWord 12s linear infinite 0s;
-    	-ms-animation: rotateWord 12s linear infinite 0s;
-    	animation: rotateWord 12s linear infinite 0s;
+    .rw-words { display: inline;
+      span {
+    	  position: absolute;
+    	  opacity: 0;
+    	  overflow: hidden;
+    	  color: #317BBA;
+    	  -webkit-animation: rotateWord 12s linear infinite 0s;
+    	  -moz-animation: rotateWord 12s linear infinite 0s;
+    	  -o-animation: rotateWord 12s linear infinite 0s;
+    	  -ms-animation: rotateWord 12s linear infinite 0s;
+    	  animation: rotateWord 12s linear infinite 0s;
 
-      &:nth-child(2) { @include animation-delay(2s, #EE942B); }
-      &:nth-child(3) { @include animation-delay(4s, #3BAFB9); }
-      &:nth-child(4) { @include animation-delay(6s, #A23F1C); }
-      &:nth-child(5) { @include animation-delay(8s, #CC0909); }
-      &:nth-child(6) { @include animation-delay(10s, #90D1D7); }
+        &:nth-child(2) { @include animation-delay(2s, #EE942B); }
+        &:nth-child(3) { @include animation-delay(4s, #3BAFB9); }
+        &:nth-child(4) { @include animation-delay(6s, #A23F1C); }
+        &:nth-child(5) { @include animation-delay(8s, #CC0909); }
+        &:nth-child(6) { @include animation-delay(10s, #90D1D7); }
+      }
     }
   }
 }
-
 @-webkit-keyframes rotateWord { @include rotateword-keyframes(-webkit-); }
 @-moz-keyframes rotateWord { @include rotateword-keyframes(-moz-); }
 @-o-keyframes rotateWord { @include rotateword-keyframes(-o-); }
