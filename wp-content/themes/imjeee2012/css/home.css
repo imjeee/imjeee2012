@@ -31,35 +31,35 @@
         -o-animation-delay: 2s;
         -ms-animation-delay: 2s;
         animation-delay: 2s;
-        color: #EE942B; }
+        color: #ee942b; }
       .rw-wrapper .rw-sentence .rw-words-1 span:nth-child(3) {
         -webkit-animation-delay: 4s;
         -moz-animation-delay: 4s;
         -o-animation-delay: 4s;
         -ms-animation-delay: 4s;
         animation-delay: 4s;
-        color: #3BAFB9; }
+        color: #3bafb9; }
       .rw-wrapper .rw-sentence .rw-words-1 span:nth-child(4) {
         -webkit-animation-delay: 6s;
         -moz-animation-delay: 6s;
         -o-animation-delay: 6s;
         -ms-animation-delay: 6s;
         animation-delay: 6s;
-        color: #A23F1C; }
+        color: #a23f1c; }
       .rw-wrapper .rw-sentence .rw-words-1 span:nth-child(5) {
         -webkit-animation-delay: 8s;
         -moz-animation-delay: 8s;
         -o-animation-delay: 8s;
         -ms-animation-delay: 8s;
         animation-delay: 8s;
-        color: #CC0909; }
+        color: #cc0909; }
       .rw-wrapper .rw-sentence .rw-words-1 span:nth-child(6) {
         -webkit-animation-delay: 10s;
         -moz-animation-delay: 10s;
         -o-animation-delay: 10s;
         -ms-animation-delay: 10s;
         animation-delay: 10s;
-        color: #90D1D7; }
+        color: #90d1d7; }
 
 @-webkit-keyframes rotateWord {
   0% {
@@ -145,19 +145,19 @@
 
   2% {
     opacity: 0;
-    -ms-transform: translateY(-30px); }
+    -mx-transform: translateY(-30px); }
 
   5% {
     opacity: 1;
-    -ms-transform: translateY(0px); }
+    -mx-transform: translateY(0px); }
 
   17% {
     opacity: 1;
-    -ms-transform: translateY(0px); }
+    -mx-transform: translateY(0px); }
 
   20% {
     opacity: 0;
-    -ms-transform: translateY(30px); }
+    -mx-transform: translateY(30px); }
 
   80% {
     opacity: 0; }

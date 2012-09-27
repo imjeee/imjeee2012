@@ -1,0 +1,33 @@
+@mixin border-radius($tl, $tr, $bl, $br) {
+  -webkit-border-radius: 2px;
+  -moz-border-top-left-radius: $tl;
+  border-top-left-radius: $tl;
+
+  -moz-border-top-right-radius: $tr;
+  border-top-right-radius: $tr;
+
+  -moz-border-bottom-left-radius: $bl;
+  border-bottom-left-radius: $bl;
+
+  -moz-border-bottom-right-radius: $br;
+  border-bottom-right-radius: $br;
+}
+
+@mixin animation-delay($delay: 0s, $color: black) {
+  -webkit-animation-delay: $delay; 
+  -moz-animation-delay: $delay; 
+  -o-animation-delay: $delay; 
+  -ms-animation-delay: $delay; 
+  animation-delay: $delay; 
+  color: $color;
+}
+
+@mixin rotateword-keyframes ($prefix) {
+  0% { opacity: 0; }
+  2% { opacity: 0; #{$prefix}transform: translateY(-30px); }
+	5% { opacity: 1; #{$prefix}transform: translateY(0px);}
+  17% { opacity: 1; #{$prefix}transform: translateY(0px); }
+	20% { opacity: 0; #{$prefix}transform: translateY(30px); }
+	80% { opacity: 0; }
+  100% { opacity: 0; }
+}

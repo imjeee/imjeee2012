@@ -24,10 +24,15 @@
         padding: 20px 10px 10px 20px;
         border-bottom: 1px solid #DDD;
         background-color: white;
+        -webkit-border-radius: 2px;
         -moz-border-top-left-radius: 5px;
         border-top-left-radius: 5px;
         -moz-border-top-right-radius: 5px;
         border-top-right-radius: 5px;
+        -moz-border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0;
+        -moz-border-bottom-right-radius: 0;
+        border-bottom-right-radius: 0;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
         font-style: italic;
@@ -56,8 +61,14 @@
           border-bottom: 1px solid #B1A451;
           background-color: white;
           -webkit-border-radius: 2px;
-          -moz-border-radius: 2px;
-          border-radius: 2px;
+          -moz-border-top-left-radius: 2px;
+          border-top-left-radius: 2px;
+          -moz-border-top-right-radius: 2px;
+          border-top-right-radius: 2px;
+          -moz-border-bottom-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+          -moz-border-bottom-right-radius: 2px;
+          border-bottom-right-radius: 2px;
           font-size: 15px;
           color: gray; }
           #about .section .timeline ul.events li p {
@@ -100,9 +111,15 @@
   #jie p {
     margin: 0;
     padding: 0;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    -moz-border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -moz-border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     font-family: 'Ubuntu', serif;
     font-size: 21px;
     line-height: 30px; }

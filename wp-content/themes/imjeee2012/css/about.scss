@@ -1,3 +1,5 @@
+@import "mixins";
+
 #about {
   margin: 5% 0 5% 0;
 
@@ -31,11 +33,7 @@
         border-bottom: 1px solid #DDD;  
         background-color: white;
 
-        -moz-border-top-left-radius: 5px;
-        border-top-left-radius: 5px;
-
-        -moz-border-top-right-radius: 5px;
-        border-top-right-radius: 5px;
+        @include border-radius(5px, 5px, 0, 0);
 
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
@@ -73,10 +71,8 @@
 
           border-bottom: 1px solid #B1A451;
           background-color: white;
-          
-          -webkit-border-radius: 2px;
-          -moz-border-radius: 2px;
-          border-radius: 2px;
+
+          @include border-radius(2px, 2px, 2px, 2px);
 
           font-size: 15px;
           color: gray;
@@ -146,9 +142,7 @@
       margin: 0;
       padding: 0;
 
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
+      @include border-radius(30px, 30px, 30px, 30px);          
 
       font-family: 'Ubuntu', serif;
       font-size: 21px;
