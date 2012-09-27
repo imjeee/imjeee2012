@@ -4,7 +4,7 @@ wp-config-copy.php
 *.ai
 .htaccess
 
-./sass-cache
+.sass-cache/
 wp-admin/
 wp-includes/
 wp-content/uploads

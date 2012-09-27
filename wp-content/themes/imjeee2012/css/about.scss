@@ -1,0 +1,193 @@
+#about {
+  margin: 5% 0 5% 0;
+
+  .section {
+    overflow: auto;
+    width: 100%;
+
+    margin: 10% 0 10% 0;
+
+    .block {
+      margin: 0 4% 0 0;
+      padding: 0;  
+
+      width: 25%;
+      float: left;
+
+      border: 1px solid #B1A451;  
+      background-color: white;
+
+      -moz-box-shadow:    0 0 10px 3px grey;
+      -webkit-box-shadow: 0 0 10px 3px #111;
+      box-shadow:         1px 1px 10px -3px #BBB;
+
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+
+      h1 {
+        margin: 0;
+        padding: 20px 10px 10px 20px;
+
+        border-bottom: 1px solid #DDD;  
+        background-color: white;
+
+        -moz-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;
+
+        -moz-border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        color: gray;
+      }
+
+      p {
+        margin: 0;
+        padding: 15px 20px 80px 20px;
+
+        font-size: 14px;
+        line-height: 20px;
+        color: gray;
+      }
+    } /* block */
+
+    .timeline {
+      margin: 0;
+      padding: 0;
+
+      float: left;
+      width: 70%;
+
+      ul.events {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+
+        li {
+          margin: 10px;
+          padding: 0;
+          position: relative;
+
+          border-bottom: 1px solid #B1A451;
+          background-color: white;
+          
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          border-radius: 2px;
+
+          font-size: 15px;
+          color: gray;
+          
+
+          p {
+            margin: 0;
+            padding: 10px;
+
+            font-size: 13px;
+          }
+
+          em {
+            color: #aaa;
+            font-weight: normal;
+            font-size: 0.9em;
+            
+          }
+        } /* li */
+      } /* ul.events */
+    } /* .timeline */
+  } /* section */
+
+  .skills-chart {
+    float: left;
+    width: 70%;
+
+    ul.intervals li {
+      margin: 0 2px 0 0;
+      padding: 15px 0 15px 0;
+
+      background-color: white;
+      border-top: 1px solid #B1A451;
+
+      left: 0%;
+
+      color: gray;
+      float: left;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+      width: 24.5%;
+
+      -moz-box-shadow:    0 0 10px 3px grey;
+      -webkit-box-shadow: 0 0 10px 3px #111;
+      box-shadow:         1px 1px 10px -3px #BBB;
+    }
+
+    ul.events li {
+      margin: 0 0 5px 0;
+      padding: 5px 0 5px 7px;
+
+      border-width: 0;
+      background-color: rgba(0,0,0,0);
+
+      font-size: 13px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+  #jie {
+    width: 97%;
+
+    p {
+      margin: 0;
+      padding: 0;
+
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+
+      font-family: 'Ubuntu', serif;
+      font-size: 21px;
+      line-height: 30px;
+    }
+  }
+
+
+
+  ul.timeline-events li {
+    margin: 0;
+    float: left;
+  }
+
+  ul.intervals {
+    margin: 0;
+    padding: 0 0 30px 0;
+
+    list-style-type: none;
+    display: block;
+  }
+
+  /* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
+  .timeline ul.intervals li {
+    margin: 0 1px 0 0;
+    padding: 5px 0 5px 0;
+
+    background-color: white;
+    border-top: 1px solid #B1A451;
+
+    color: gray;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 9.6%;
+
+    -moz-box-shadow:    0 0 10px 3px grey;
+    -webkit-box-shadow: 0 0 10px 3px #111;
+    box-shadow:         1px 1px 10px -3px #BBB;
+  }
+
