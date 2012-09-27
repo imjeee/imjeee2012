@@ -1,16 +1,4 @@
-@mixin post-img-border {
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-
-  -moz-border-radius-bottomright: 5px;
-  border-bottom-right-radius: 5px;
-
-  -moz-border-radius-bottomleft: 5px;
-  border-bottom-left-radius: 5px;
-}
+@import "mixins";
 
 .post-img {
   width: 74%;
@@ -18,9 +6,7 @@
   margin: 0 30px 50px 0;
   background-repeat: no-repeat;
   
-  -moz-box-shadow:    0 0 10px 3px grey;
-  -webkit-box-shadow: 0 0 10px 3px #111;
-  box-shadow:         1px 1px 10px -3px #BBB;
+  @include box-shadow(1px, 1px, 10px, -3px, #BBB);
 }
 
 .post-img-none {
@@ -38,7 +24,7 @@
 }
 
 .post-img-photoshop {
-  @include post-img-border;
+  @include border-radius(2px, 2px, 5px, 5px);
   padding: 34px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/photoshop-bg.png");
 }
@@ -53,7 +39,7 @@
 }
 
 .post-img-illustrator {
-  @include post-img-border;
+  @include border-radius(2px, 2px, 5px, 5px);
   padding: 35px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/illustrator-bg.png");
 }

@@ -1,3 +1,20 @@
+/**
+$ho - horizontal offset
+$vo - vertical offset
+$br - blue radius
+$sr - spread radius
+$c - color
+**/
+/**
+$tl - top left radius
+$tr - top right radius
+$bl - bottom left radius
+$br - bottom right radius
+**/
+/**
+**/
+/**
+**/
 #about {
   margin: 5% 0 5% 0;
   /* section */ }
@@ -14,11 +31,18 @@
       float: left;
       border: 1px solid #B1A451;
       background-color: white;
-      -moz-box-shadow: 0 0 10px 3px grey;
-      -webkit-box-shadow: 0 0 10px 3px #111;
+      -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
+      -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
       box-shadow: 1px 1px 10px -3px #bbbbbb;
-      -moz-border-radius: 5px;
-      border-radius: 5px; }
+      -webkit-border-radius: 2px;
+      -moz-border-top-left-radius: 5px;
+      border-top-left-radius: 5px;
+      -moz-border-top-right-radius: 5px;
+      border-top-right-radius: 5px;
+      -moz-border-bottom-left-radius: 5p;
+      border-bottom-left-radius: 5p;
+      -moz-border-bottom-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
       #about .section .block h1 {
         margin: 0;
         padding: 20px 10px 10px 20px;
@@ -33,7 +57,6 @@
         border-bottom-left-radius: 0;
         -moz-border-bottom-right-radius: 0;
         border-bottom-right-radius: 0;
-        font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
         font-style: italic;
         color: gray; }
@@ -94,8 +117,8 @@
       font-weight: bold;
       text-align: center;
       width: 24.5%;
-      -moz-box-shadow: 0 0 10px 3px grey;
-      -webkit-box-shadow: 0 0 10px 3px #111;
+      -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
+      -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
       box-shadow: 1px 1px 10px -3px #bbbbbb; }
     #about .skills-chart ul.events li {
       margin: 0 0 5px 0;
@@ -120,7 +143,7 @@
     border-bottom-left-radius: 30px;
     -moz-border-bottom-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    font-family: 'Ubuntu', serif;
+    font-family: 'Ubuntu', Sans-serif;
     font-size: 21px;
     line-height: 30px; }
 
@@ -146,6 +169,6 @@ ul.intervals {
   font-weight: bold;
   text-align: center;
   width: 9.6%;
-  -moz-box-shadow: 0 0 10px 3px grey;
-  -webkit-box-shadow: 0 0 10px 3px #111;
+  -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
+  -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
   box-shadow: 1px 1px 10px -3px #bbbbbb; }

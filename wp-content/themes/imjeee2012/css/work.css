@@ -4,6 +4,7 @@
   height: 50px;
   background-color: #F4F3EF;
   z-index: 100;
+  -webkit-border-radius: 2px;
   -moz-border-top-left-radius: 0;
   border-top-left-radius: 0;
   -moz-border-top-right-radius: 0;
@@ -12,7 +13,6 @@
   border-bottom-left-radius: 2px;
   -moz-border-bottom-right-radius: 2px;
   border-bottom-right-radius: 2px;
-  font-family: "Helvetica Neue", Helvetica, Sans-serif;
   color: black;
   font-size: 13px;
   letter-spacing: .1em; }
@@ -71,6 +71,7 @@
       -o-transition: All .3s linear;
       -ms-transition: All .3s linear;
       transition: All .3s linear;
+      -webkit-border-radius: 2px;
       -moz-border-top-left-radius: 5px;
       border-top-left-radius: 5px;
       -moz-border-top-right-radius: 5px;
@@ -87,9 +88,9 @@
       height: 80px;
       padding: 15px;
       margin: 0;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: white;
       border: 1px solid #B1A451;
+      -webkit-border-radius: 2px;
       -moz-border-top-left-radius: 0;
       border-top-left-radius: 0;
       -moz-border-top-right-radius: 0;

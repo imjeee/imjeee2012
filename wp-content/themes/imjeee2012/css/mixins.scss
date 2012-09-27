@@ -1,3 +1,22 @@
+/**
+$ho - horizontal offset
+$vo - vertical offset
+$br - blue radius
+$sr - spread radius
+$c - color
+**/
+@mixin box-shadow ($ho, $vo, $br, $sr, $c) {
+  -moz-box-shadow:    $ho $vo $br $sr $c;
+  -webkit-box-shadow: $ho $vo $br $sr $c;
+  box-shadow:         $ho $vo $br $sr $c;
+}
+
+/**
+$tl - top left radius
+$tr - top right radius
+$bl - bottom left radius
+$br - bottom right radius
+**/
 @mixin border-radius($tl, $tr, $bl, $br) {
   -webkit-border-radius: 2px;
   -moz-border-top-left-radius: $tl;
@@ -13,6 +32,8 @@
   border-bottom-right-radius: $br;
 }
 
+/**
+**/
 @mixin animation-delay($delay: 0s, $color: black) {
   -webkit-animation-delay: $delay; 
   -moz-animation-delay: $delay; 
@@ -22,6 +43,8 @@
   color: $color;
 }
 
+/**
+**/
 @mixin rotateword-keyframes ($prefix) {
   0% { opacity: 0; }
   2% { opacity: 0; #{$prefix}transform: translateY(-30px); }

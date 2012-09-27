@@ -19,12 +19,8 @@
       border: 1px solid #B1A451;  
       background-color: white;
 
-      -moz-box-shadow:    0 0 10px 3px grey;
-      -webkit-box-shadow: 0 0 10px 3px #111;
-      box-shadow:         1px 1px 10px -3px #BBB;
-
-      -moz-border-radius: 5px;
-      border-radius: 5px;
+      @include box-shadow(1px, 1px, 10px, -3px, #BBB);
+      @include border-radius(5px, 5px, 5p, 5px);
 
       h1 {
         margin: 0;
@@ -35,7 +31,6 @@
 
         @include border-radius(5px, 5px, 0, 0);
 
-        font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
         font-style: italic;
         color: gray;
@@ -116,9 +111,7 @@
       text-align: center;
       width: 24.5%;
 
-      -moz-box-shadow:    0 0 10px 3px grey;
-      -webkit-box-shadow: 0 0 10px 3px #111;
-      box-shadow:         1px 1px 10px -3px #BBB;
+      @include box-shadow(1px, 1px, 10px, -3px, #BBB);
     }
 
     ul.events li {
@@ -135,53 +128,49 @@
   }
 }
 
-  #jie {
-    width: 97%;
+#jie {
+  width: 97%;
 
-    p {
-      margin: 0;
-      padding: 0;
-
-      @include border-radius(30px, 30px, 30px, 30px);          
-
-      font-family: 'Ubuntu', serif;
-      font-size: 21px;
-      line-height: 30px;
-    }
-  }
-
-
-
-  ul.timeline-events li {
+  p {
     margin: 0;
-    float: left;
+    padding: 0;
+
+    @include border-radius(30px, 30px, 30px, 30px);          
+
+    font-family: 'Ubuntu', Sans-serif;
+    font-size: 21px;
+    line-height: 30px;
   }
+}
 
-  ul.intervals {
-    margin: 0;
-    padding: 0 0 30px 0;
+ul.timeline-events li {
+  margin: 0;
+  float: left;
+}
 
-    list-style-type: none;
-    display: block;
-  }
+ul.intervals {
+  margin: 0;
+  padding: 0 0 30px 0;
 
-  /* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
-  .timeline ul.intervals li {
-    margin: 0 1px 0 0;
-    padding: 5px 0 5px 0;
+  list-style-type: none;
+  display: block;
+}
 
-    background-color: white;
-    border-top: 1px solid #B1A451;
+/* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
+.timeline ul.intervals li {
+  margin: 0 1px 0 0;
+  padding: 5px 0 5px 0;
 
-    color: gray;
-    float: left;
-    font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    width: 9.6%;
+  background-color: white;
+  border-top: 1px solid #B1A451;
 
-    -moz-box-shadow:    0 0 10px 3px grey;
-    -webkit-box-shadow: 0 0 10px 3px #111;
-    box-shadow:         1px 1px 10px -3px #BBB;
-  }
+  color: gray;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  width: 9.6%;
+
+  @include box-shadow(1px, 1px, 10px, -3px, #BBB);
+}
 
