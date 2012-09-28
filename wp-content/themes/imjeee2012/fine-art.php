@@ -23,7 +23,7 @@
 	<div id="fine-art"><!-- Section #1 / Intro -->
 		<section id="first" class="story" data-speed="8" data-type="background">
 			<article>
-				<h1>i draw, i paint, and i take pictures without filters from instagram .</h1>
+				<h1>I am what a real artist would call.. a sunday painter&nbsp.</h1>
         <p></p>
 			</article>
 		</section>
