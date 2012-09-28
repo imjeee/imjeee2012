@@ -6,6 +6,11 @@ $sr - spread radius
 $c - color
 **/
 /**
+$pro - property
+$dur - duration
+$tim - timing
+**/
+/**
 $tl - top left radius
 $tr - top right radius
 $bl - bottom left radius
@@ -71,8 +76,8 @@ $br - bottom right radius
     width: 285px;
     height: 295px;
     margin: 0 50px 50px 0;
-    -moz-box-shadow: 0 0 10px 3px grey;
-    -webkit-box-shadow: 0 0 10px 3px #111;
+    -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
+    -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
     box-shadow: 1px 1px 10px -3px #bbbbbb; }
     .img-grid li .work-grid img {
       width: 283px;
@@ -83,11 +88,11 @@ $br - bottom right radius
       opacity: .85;
       filter: alpha(opacity=85);
       /* For IE8 and earlier */
-      -webkit-transition: All .3s linear;
-      -moz-transition: All .3s linear;
-      -o-transition: All .3s linear;
-      -ms-transition: All .3s linear;
-      transition: All .3s linear;
+      -webkit-transition: opacity 0.3s linear;
+      -moz-transition: opacity 0.3s linear;
+      -o-transition: opacity 0.3s linear;
+      -ms-transition: opacity 0.3s linear;
+      transition: opacity 0.3s linear;
       -webkit-border-radius: 2px;
       -moz-border-top-left-radius: 5px;
       border-top-left-radius: 5px;

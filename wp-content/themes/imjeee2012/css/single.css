@@ -6,6 +6,11 @@ $sr - spread radius
 $c - color
 **/
 /**
+$pro - property
+$dur - duration
+$tim - timing
+**/
+/**
 $tl - top left radius
 $tr - top right radius
 $bl - bottom left radius
@@ -30,8 +35,15 @@ $br - bottom right radius
   margin: 0 30px 50px 0; }
 
 .post-img-web {
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   padding: 23px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/web-bg.png"); }
 
@@ -49,8 +61,15 @@ $br - bottom right radius
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/photoshop-bg.png"); }
 
 .post-img-preview {
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   padding: 55px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/preview-bg.png"); }
 

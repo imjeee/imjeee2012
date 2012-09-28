@@ -1,5 +1,5 @@
 @import "mixins";
-
+@import "globalvars";
 
 .logo {
   margin: 0 0 50px 0;
@@ -12,19 +12,15 @@
 
       color: white;
       font-size: 33px;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, .6);
       text-align: center;
 
-      -webkit-transition: All .3s linear;
-      -moz-transition: All .3s linear;
-      -o-transition: All .3s linear;
-      -ms-transition: All .3s linear;
-      transition: All .3s linear;
+      @include transition(All, .3s, linear);
+      &:hover { background: rgba(0, 0, 0, 1); }
     }
 
     .logo-bottom {
-      padding: 5px 0 0 0;
-      
+      padding: 5px 0 0 0;      
       font-size: 13px;
       color: rgba(0, 0, 0, 0.8);
     }
@@ -38,12 +34,9 @@ nav ul {
   li {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    list-style-type: none;
     line-height: 25px;
-
-    a:hover { color: black; }
   }
-  .current_page_item a { color: black; }
+  .current_page_item a { color: $visited; }
   .contact-btn { cursor: pointer; }
 }
 
@@ -132,7 +125,7 @@ nav ul {
       height:33px;
 
       border-width: 0;
-      @include border-radius(3px, 3px, 3px, 3px);
+      @include border-radius(2px, 2px, 2px, 2px);
 
       display:block;
       font-size:14px;

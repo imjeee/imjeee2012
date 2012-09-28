@@ -12,6 +12,19 @@ $c - color
 }
 
 /**
+$pro - property
+$dur - duration
+$tim - timing
+**/
+@mixin transition($pro, $dur, $tim){
+	-webkit-transition: $pro $dur $tim;
+	-moz-transition: $pro $dur $tim;
+	-o-transition: $pro $dur $tim;
+	-ms-transition: $pro $dur $tim;
+	transition: $pro $dur $tim;
+}
+
+/**
 $tl - top left radius
 $tr - top right radius
 $bl - bottom left radius

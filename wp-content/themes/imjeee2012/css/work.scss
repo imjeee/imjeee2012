@@ -70,10 +70,7 @@
     height: 295px;
 
     margin: 0 50px 50px 0;
-
-    -moz-box-shadow:    0 0 10px 3px grey;
-    -webkit-box-shadow: 0 0 10px 3px #111;
-    box-shadow:         1px 1px 10px -3px #BBB;
+    @include box-shadow(1px, 1px, 10px, -3px, #BBB);
 
     img {
       width: 283px;
@@ -88,12 +85,7 @@
       opacity: .85;
       filter:alpha(opacity=85); /* For IE8 and earlier */
 
-      -webkit-transition: All .3s linear;
-      -moz-transition: All .3s linear;
-      -o-transition: All .3s linear;
-      -ms-transition: All .3s linear;
-      transition: All .3s linear;
-
+      @include transition(opacity, .3s, linear);
       @include border-radius(5px, 5px, 0, 0);
 
       &:hover {

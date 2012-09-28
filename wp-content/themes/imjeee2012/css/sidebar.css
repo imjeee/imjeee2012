@@ -6,6 +6,11 @@ $sr - spread radius
 $c - color
 **/
 /**
+$pro - property
+$dur - duration
+$tim - timing
+**/
+/**
 $tl - top left radius
 $tr - top right radius
 $bl - bottom left radius
@@ -26,11 +31,13 @@ $br - bottom right radius
       font-size: 33px;
       background: rgba(0, 0, 0, 0.6);
       text-align: center;
-      -webkit-transition: All .3s linear;
-      -moz-transition: All .3s linear;
-      -o-transition: All .3s linear;
-      -ms-transition: All .3s linear;
-      transition: All .3s linear; }
+      -webkit-transition: All 0.3s linear;
+      -moz-transition: All 0.3s linear;
+      -o-transition: All 0.3s linear;
+      -ms-transition: All 0.3s linear;
+      transition: All 0.3s linear; }
+      .logo a .logo-top:hover {
+        background: black; }
     .logo a .logo-bottom {
       padding: 5px 0 0 0;
       font-size: 13px;
@@ -42,12 +49,9 @@ nav ul {
   nav ul li {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    list-style-type: none;
     line-height: 25px; }
-    nav ul li a:hover {
-      color: black; }
   nav ul .current_page_item a {
-    color: black; }
+    color: #4d4000; }
   nav ul .contact-btn {
     cursor: pointer; }
 
@@ -118,14 +122,14 @@ nav ul {
       height: 33px;
       border-width: 0;
       -webkit-border-radius: 2px;
-      -moz-border-top-left-radius: 3px;
-      border-top-left-radius: 3px;
-      -moz-border-top-right-radius: 3px;
-      border-top-right-radius: 3px;
-      -moz-border-bottom-left-radius: 3px;
-      border-bottom-left-radius: 3px;
-      -moz-border-bottom-right-radius: 3px;
-      border-bottom-right-radius: 3px;
+      -moz-border-top-left-radius: 2px;
+      border-top-left-radius: 2px;
+      -moz-border-top-right-radius: 2px;
+      border-top-right-radius: 2px;
+      -moz-border-bottom-left-radius: 2px;
+      border-bottom-left-radius: 2px;
+      -moz-border-bottom-right-radius: 2px;
+      border-bottom-right-radius: 2px;
       display: block;
       font-size: 14px;
       font-weight: bold;

@@ -1,12 +1,4 @@
-/* body, main */
-
-$blue: #607890;
-$brown: #B1A451;
-
-$text-color: #333;
-$link: $blue;
-$hover: $brown;
-$visited: $brown - 100;
+@import "globalvars";
 
 html {
   overflow-y: scroll;
@@ -22,7 +14,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, Sans-serif;
     color: $text-color;
 
-    ul li { list-style: none; }
+    ul li { list-style-type: none; }
 
     .left {
       width: 137px;
@@ -40,7 +32,7 @@ html {
       z-index: 0;
     }
 
-    a, a:link {
+    a {
       color: $link;
       text-decoration:none;
       -webkit-transition: color .3s linear;
@@ -50,7 +42,6 @@ html {
       transition: color .3s linear;
       
       &:hover { color: $hover; }
-      &:active, &:visited { color: $visited; }
     }
 
     /* SOCIAL ICONS - GENERAL */

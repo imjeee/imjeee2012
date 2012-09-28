@@ -16,8 +16,7 @@
 }
 
 .post-img-web {
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  @include border-radius(5px, 5px, 5px, 5px);
 
   padding: 23px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/web-bg.png");
@@ -31,8 +30,7 @@
 
 
 .post-img-preview {
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  @include border-radius(5px, 5px, 5px, 5px);
 
   padding: 55px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/preview-bg.png");
