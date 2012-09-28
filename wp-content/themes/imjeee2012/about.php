@@ -21,9 +21,11 @@
   <div class="right">
     <div id="about">
       <div class="section">
-        <div id="jie">
-          <p>Hi there! My name is Jie Lian. My friends just call me g. like playing basketball, reading <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">"A song of ice and fire book series"</a>, typing on the keyboard of Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">watching Sundance movies</a>, and experimenting with the wonderful Austin music scenes. Feel free to <a class="contact-btn">get in touch</a>, and make it official by grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>.</p>
-        </div><!-- #jie -->
+        <div class="block">
+          <h1>Hi there!</h1>
+          <p>My name is Jie Lian. My friends just call me g. like playing basketball, reading <a href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire" target="_blank">"A song of ice and fire book series"</a>, typing on the keyboard of Blackberry, <a href="http://en.wikipedia.org/wiki/List_of_Sundance_Film_Festival_award_winners" target="_blank">watching Sundance movies</a>, and experimenting with the wonderful Austin music scenes. Feel free to <a class="contact-btn">get in touch</a>, and make it official by grab a copy of <a href="<?php bloginfo('template_url'); ?>/downloads/Jie_Lian_resume.pdf" target="_blank">his resume</a>.</p>
+        </div><!-- .block -->
+        <img src="<?php bloginfo('template_url'); ?>/images/portrait.png" style="width: 67%;"/>
       </div><!-- .section -->
       <div class="section">
         <div class="block">
