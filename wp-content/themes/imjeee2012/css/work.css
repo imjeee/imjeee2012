@@ -35,9 +35,20 @@ ul.img-grid {
     float: left;
     overflow: hidden;
     margin: 0 50px 50px 0;
+    background-color: white;
+    border-bottom: 1px solid #B1A451;
     -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
     -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
-    box-shadow: 1px 1px 10px -3px #bbbbbb; }
+    box-shadow: 1px 1px 10px -3px #bbbbbb;
+    -webkit-border-radius: 2px;
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
     ul.img-grid li img {
       height: 190px;
       z-index: -1;
@@ -68,17 +79,7 @@ ul.img-grid {
       height: 80px;
       padding: 15px;
       margin: 0;
-      background-color: white;
-      border: 1px solid #B1A451;
-      -webkit-border-radius: 2px;
-      -moz-border-top-left-radius: 0;
-      border-top-left-radius: 0;
-      -moz-border-top-right-radius: 0;
-      border-top-right-radius: 0;
-      -moz-border-bottom-left-radius: 5px;
-      border-bottom-left-radius: 5px;
-      -moz-border-bottom-right-radius: 5px;
-      border-bottom-right-radius: 5px; }
+      border: 1px solid #B1A451; }
       ul.img-grid li .img-details h4, ul.img-grid li .img-details h4 a {
         padding: 5px 0 10px 0;
         margin: 0;
