@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<style type="text/css">
- /style>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/home.css" />
 <body <?php body_class(); ?>>
   <div class="left">
