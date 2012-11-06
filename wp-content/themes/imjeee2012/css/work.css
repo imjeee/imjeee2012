@@ -35,7 +35,6 @@ ul.img-grid {
     float: left;
     overflow: hidden;
     margin: 0 50px 50px 0;
-    background-color: white;
     border-bottom: 1px solid #B1A451;
     -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
     -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
@@ -64,10 +63,10 @@ ul.img-grid {
       -ms-transition: opacity 0.3s linear;
       transition: opacity 0.3s linear;
       -webkit-border-radius: 2px;
-      -moz-border-top-left-radius: 5px;
-      border-top-left-radius: 5px;
-      -moz-border-top-right-radius: 5px;
-      border-top-right-radius: 5px;
+      -moz-border-top-left-radius: 7px;
+      border-top-left-radius: 7px;
+      -moz-border-top-right-radius: 7px;
+      border-top-right-radius: 7px;
       -moz-border-bottom-left-radius: 0;
       border-bottom-left-radius: 0;
       -moz-border-bottom-right-radius: 0;
@@ -80,8 +79,18 @@ ul.img-grid {
       height: 80px;
       padding: 15px;
       margin: -5 0 0 0;
+      background-color: white;
       border-left: 1px solid #B1A451;
-      border-right: 1px solid #B1A451; }
+      border-right: 1px solid #B1A451;
+      -webkit-border-radius: 2px;
+      -moz-border-top-left-radius: 0;
+      border-top-left-radius: 0;
+      -moz-border-top-right-radius: 0;
+      border-top-right-radius: 0;
+      -moz-border-bottom-left-radius: 7px;
+      border-bottom-left-radius: 7px;
+      -moz-border-bottom-right-radius: 7px;
+      border-bottom-right-radius: 7px; }
       ul.img-grid li .img-details h4, ul.img-grid li .img-details h4 a {
         padding: 5px 0 10px 0;
         margin: 0;

@@ -19,7 +19,6 @@ ul.img-grid {
     overflow: hidden;
     margin: 0 50px 50px 0;
 
-    background-color: white;
     border-bottom: 1px solid #B1A451;
 
     @include box-shadow(1px, 1px, 10px, -3px, #BBB);
@@ -39,7 +38,7 @@ ul.img-grid {
       filter:alpha(opacity=85); /* For IE8 and earlier */
 
       @include transition(opacity, .3s, linear);
-      @include border-radius(5px, 5px, 0, 0);
+      @include border-radius(7px, 7px, 0, 0);
 
       &:hover {
         opacity: 1;
@@ -53,8 +52,12 @@ ul.img-grid {
       padding: 15px;
       margin: -5 0 0 0;
 
+      background-color: white;
+
       border-left: 1px solid #B1A451;
       border-right: 1px solid #B1A451;
+
+      @include border-radius(0, 0, 7px, 7px);
 
       h4, h4 a {
         padding: 5px 0 10px 0;
