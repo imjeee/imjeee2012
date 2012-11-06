@@ -20,6 +20,11 @@ $br - bottom right radius
 **/
 /**
 **/
+body {
+  background-image: url("../images/background-about.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 #about {
   margin: 5% 0 5% 0;
   /* section */

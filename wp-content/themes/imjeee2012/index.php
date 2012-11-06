@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 
 <style type="text/css">
-  body {
-    background-image: url('<?php bloginfo('template_url'); ?>/images/background.png');
-  }
-</style>
-
+ /style>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/home.css" />
 <body <?php body_class(); ?>>
   <div class="left">
   	<?php get_sidebar(); ?>

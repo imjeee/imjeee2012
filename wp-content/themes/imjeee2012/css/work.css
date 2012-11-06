@@ -20,67 +20,25 @@ $br - bottom right radius
 **/
 /**
 **/
-#cat_nav {
-  position: fixed;
-  left: 16%;
-  height: 50px;
-  background-color: #F4F3EF;
-  z-index: 100;
-  -webkit-border-radius: 2px;
-  -moz-border-top-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  -moz-border-bottom-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-  -moz-border-bottom-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  color: black;
-  font-size: 13px;
-  letter-spacing: .1em; }
-  #cat_nav ul.splitter {
-    margin: 0;
-    padding: 20px 0 0 40px;
-    display: block;
-    clear: both; }
-    #cat_nav ul.splitter::after {
-      content: "";
-      display: block;
-      height: 0;
-      overflow: hidden;
-      clear: both; }
-    #cat_nav ul.splitter li {
-      padding: 0;
-      margin: 0 15px 0 0;
-      display: inline-block;
-      float: left; }
-      #cat_nav ul.splitter li a {
-        margin: 0;
-        padding: 5px 10px 5px 10px;
-        /* padding top doesnt work... */
-        border-bottom: 1px solid #B1A451; }
-        #cat_nav ul.splitter li a:hover {
-          color: #B1A451; }
+body {
+  background-image: url("../images/background-work.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
-/* serious-work */
-#serious-work {
-  margin: 10% 0 10% 0; }
-
-.img-grid li {
-  margin: 0;
+ul.img-grid {
+  margin: 10% 0 10% 0;
   padding: 0;
-  float: left;
-  overflow: hidden;
-  display: block; }
-  .img-grid li .work-grid {
+  overflow: hidden; }
+  ul.img-grid li {
     width: 285px;
     height: 295px;
+    float: left;
+    overflow: hidden;
     margin: 0 50px 50px 0;
     -moz-box-shadow: 1px 1px 10px -3px #bbbbbb;
     -webkit-box-shadow: 1px 1px 10px -3px #bbbbbb;
     box-shadow: 1px 1px 10px -3px #bbbbbb; }
-    .img-grid li .work-grid img {
-      width: 283px;
+    ul.img-grid li img {
       height: 190px;
       z-index: -1;
       margin: 0 0 -1px 0;
@@ -102,11 +60,11 @@ $br - bottom right radius
       border-bottom-left-radius: 0;
       -moz-border-bottom-right-radius: 0;
       border-bottom-right-radius: 0; }
-      .img-grid li .work-grid img:hover {
+      ul.img-grid li img:hover {
         opacity: 1;
         filter: alpha(opacity=100);
         /* For IE8 and earlier */ }
-    .img-grid li .work-grid .img-details {
+    ul.img-grid li .img-details {
       height: 80px;
       padding: 15px;
       margin: 0;
@@ -121,15 +79,15 @@ $br - bottom right radius
       border-bottom-left-radius: 5px;
       -moz-border-bottom-right-radius: 5px;
       border-bottom-right-radius: 5px; }
-      .img-grid li .work-grid .img-details h4, .img-grid li .work-grid .img-details h4 a {
+      ul.img-grid li .img-details h4, ul.img-grid li .img-details h4 a {
         padding: 5px 0 10px 0;
         margin: 0;
         font-weight: bold;
         font-size: 16px;
         letter-spacing: .05em; }
-        .img-grid li .work-grid .img-details h4:hover, .img-grid li .work-grid .img-details h4 a:hover {
+        ul.img-grid li .img-details h4:hover, ul.img-grid li .img-details h4 a:hover {
           color: #B1A451; }
-      .img-grid li .work-grid .img-details p {
+      ul.img-grid li .img-details p {
         padding: 0;
         margin: 0;
         font-size: 13px;

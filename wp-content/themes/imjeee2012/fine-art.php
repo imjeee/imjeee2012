@@ -5,16 +5,7 @@
    ?>
 
 <?php get_header(); ?>
-
-<style type="text/css">
-  .left ul li a{
-    color: white;
-  }
-  .left ul li a:hover {
-    color: black;
-  }
-</style>
-
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/fine-art.css" />
 <body <?php body_class(); ?>>
 	<div class="left">
 		<?php get_sidebar(); ?>

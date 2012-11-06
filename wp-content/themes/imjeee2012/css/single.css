@@ -20,6 +20,10 @@ $br - bottom right radius
 **/
 /**
 **/
+.right {
+  margin: 63px 0 50px 0;
+  padding: 0; }
+
 .post-img {
   width: 74%;
   max-width: 2000px;
@@ -85,10 +89,6 @@ $br - bottom right radius
   border-bottom-right-radius: 5px;
   padding: 35px 0 0 0;
   background-image: url("http://www.imjeee.com/wp-content/themes/imjeee2012/images/helper/illustrator-bg.png"); }
-
-#single {
-  margin: 63px 0 50px 0;
-  padding: 0; }
 
 #post-details {
   position: fixed;

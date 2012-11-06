@@ -1,123 +1,42 @@
-(function($) {
-	$.fn.sorted = function(customOptions) {
-		var options = {
-			reversed: false,
-			by: function(a) {
-				return a.text();
-			}
-		};
-		$.extend(options, customOptions);
-	
-		$data = $(this);
-		arr = $data.get();
-		arr.sort(function(a, b) {
-			
-		   	var valA = options.by($(a));
-		   	var valB = options.by($(b));
-			if (options.reversed) {
-				return (valA < valB) ? 1 : (valA > valB) ? -1 : 0;				
-			} else {		
-				return (valA < valB) ? -1 : (valA > valB) ? 1 : 0;	
-			}
-		});
-		return $(arr);
-	};
+$(document).ready(function() {
 
-})(jQuery);
+  // get the action filter option item on page load
+  var $filterType = $('#filterOptions li.selected a').attr('data-value');
+  
+  // get and assign the ourHolder element to the
+  // $holder varible for use later
+  var $holder = $('ul.img-grid');
 
-$(function() {
-  
-  var read_button = function(class_names) {
-    var r = {
-      selected: false,
-      type: 0
-    };
-    for (var i=0; i < class_names.length; i++) {
-      if (class_names[i].indexOf('selected-') == 0) {
-        r.selected = true;
-      }
-      if (class_names[i].indexOf('segment-') == 0) {
-        r.segment = class_names[i].split('-')[1];
-      }
-    };
-    return r;
-  };
-  
-  var determine_sort = function($buttons) {
-    var $selected = $buttons.parent().filter('[class*="selected-"]');
-    return $selected.find('a').attr('data-value');
-  };
-  
-  var determine_kind = function($buttons) {
-    var $selected = $buttons.parent().filter('[class*="selected-"]');
-    return $selected.find('a').attr('data-value');
-  };
-  
-  var $preferences = {
-    duration: 800,
-    easing: 'easeInOutQuad',
-    adjustHeight: false
-  };
-  
-  var $list = $('#list');
-  var $data = $list.clone();
-  
-  var $controls = $('ul.splitter');
-  
-  $controls.each(function(i) {
+  // clone all items within the pre-assigned $holder element
+  var $data = $holder.clone();
+
+  // attempt to call Quicksand when a filter option
+  // item is clicked
+  $('#filterOptions li a').click(function(e) {
+    // reset the active class on all the buttons
+    $('#filterOptions li').removeClass('selected');
     
-    var $control = $(this);
-    var $buttons = $control.find('a');
+    // assign the class of the clicked filter option
+    // element to our $filterType variable
+    var $filterType = $(this).attr('data-value');
+    $(this).parent().addClass('selected');
+
+    if ($filterType == 'all') {
+      // assign all li items to the $filteredData var when
+      // the 'All' filter option is clicked
+      var $filteredData = $data.find('li');
+      } 
+    else {
+      // find all li elements that have our required $filterType
+      // values for the data-type element
+      var $filteredData = $data.find('li[class=' + $filterType + ']');
+    }
     
-    $buttons.bind('click', function(e) {
-      
-      var $button = $(this);
-      var $button_container = $button.parent();
-      var button_properties = read_button($button_container.attr('class').split(' '));      
-      var selected = button_properties.selected;
-      var button_segment = button_properties.segment;
-
-      $('html, body').animate({scrollTop:0}, 'slow');
-
-      if (!selected) {
-        // assume there are 30 categories or less
-        for (var i = 0; i < 30; i++){
-          $buttons.parent().removeClass('selected-' + i);
-          $buttons.parent().removeClass('selected');
-        }
-        $button_container.addClass('selected-' + button_segment);
-        $button_container.addClass('selected');
-        
-        var sorting_type = determine_sort($controls.eq(1).find('a'));
-        var sorting_kind = determine_kind($controls.eq(0).find('a'));
-        
-        if (sorting_kind == 'all') {
-          var $filtered_data = $data.find('li');
-        } else {
-          var $filtered_data = $data.find('li.' + sorting_kind);
-        }
-        
-        if (sorting_type == 'size') {
-          var $sorted_data = $filtered_data.sorted({
-            by: function(v) {
-              return parseFloat($(v).find('span').text());
-            }
-          });
-        } else {
-          var $sorted_data = $filtered_data.sorted({
-            by: function(v) {
-              return $(v).find('strong').text().toLowerCase();
-            }
-          });
-        }
-        
-        $list.quicksand($sorted_data, $preferences);
-        
-      }
-      
-      e.preventDefault();
+    // call quicksand and assign transition parameters
+    $holder.quicksand($filteredData, {
+      duration: 800,
+      easing: 'easeInOutQuad'
+      });
+    return false;
     });
-    
-  }); 
-
 });

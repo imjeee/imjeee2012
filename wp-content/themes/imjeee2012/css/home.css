@@ -20,6 +20,9 @@ $br - bottom right radius
 **/
 /**
 **/
+body {
+  background-image: url("../images/background.png"); }
+
 .rw-wrapper {
   width: 90%;
   position: fixed;
