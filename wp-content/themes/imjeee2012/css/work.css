@@ -78,8 +78,9 @@ ul.img-grid {
     ul.img-grid li .img-details {
       height: 80px;
       padding: 15px;
-      margin: 0;
-      border: 1px solid #B1A451; }
+      margin: -5 0 0 0;
+      border-left: 1px solid #B1A451;
+      border-right: 1px solid #B1A451; }
       ul.img-grid li .img-details h4, ul.img-grid li .img-details h4 a {
         padding: 5px 0 10px 0;
         margin: 0;

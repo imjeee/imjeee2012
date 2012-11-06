@@ -50,10 +50,10 @@ ul.img-grid {
       height: 80px;
 
       padding: 15px;
-      margin: 0;
+      margin: -5 0 0 0;
 
-      border: 1px solid #B1A451;
-
+      border-left: 1px solid #B1A451;
+      border-right: 1px solid #B1A451;
 
       h4, h4 a {
         padding: 5px 0 10px 0;
