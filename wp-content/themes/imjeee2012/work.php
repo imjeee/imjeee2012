@@ -11,9 +11,10 @@
 	</div><!-- left -->
 	<div class="right">
     <ul class="img-grid">
-			<?php $posts_array = query_posts('posts_per_page=-1&cat=-' . $fineart);
-            foreach( $posts_array as $post){
-            $post_cats = get_the_category(); ?>
+			<?php $fineart = get_category_by_slug('fine-art')->term_id;
+      $posts_array = query_posts('posts_per_page=-1&cat=-' . $fineart);
+      foreach( $posts_array as $post){
+      $post_cats = get_the_category(); ?>
       <li data-id="id-<?php echo $i ?>" class="<?php foreach($post_cats as $cat) { echo $cat->slug; } ?>">
 				<?php if ( has_post_thumbnail() ): ?>
 				<a href="<?php echo get_permalink(); ?>" target="_self"><?php echo the_post_thumbnail(); ?></a>
