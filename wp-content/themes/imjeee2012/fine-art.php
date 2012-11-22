@@ -14,7 +14,7 @@
 	<div id="fine-art"><!-- Section #1 / Intro -->
 		<section id="first" class="story" data-speed="8" data-type="background">
 			<article>
-				<h1>I draw, I paint, I break balls, and crush egos all before bedtime&nbsp.</h1>
+				<h1>I draw, I paint, I break balls, and I crush egos all before bedtime&nbsp.</h1>
         <p></p>
 			</article>
 		</section>
